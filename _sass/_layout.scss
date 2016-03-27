@@ -18,8 +18,8 @@
 
 [class*='col-'] {
 	padding: 0 $gutter/2;
-	float: left;
 	box-sizing: border-box;
+    float: left;
 }
 
 .col-full {
@@ -56,5 +56,10 @@
 	width: 1.315561667319202%;
 }
 
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
