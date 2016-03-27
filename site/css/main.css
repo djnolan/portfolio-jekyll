@@ -1,0 +1,53 @@
+/*
+Error: Invalid CSS after "...rt "breakpoint"": expected "{", was ";"
+        on line 7 of /Users/dan_nolan/Dropbox/work/Projects/*personal/portfolio/site_main/jekyll/portfolio-jekyll/css/main.scss
+
+2: # Only the main Sass file needs front matter (the dashes are enough)
+3: ---
+4: //@charset "utf-8";
+5: 
+6: // Import partials from `sass_dir` (defaults to `_sass`)
+7: @import "breakpoint";
+8: @import "reset";
+9: @import "variables";
+10: @import "mixins";
+11: @import "layout";
+12: @import "typography";
+
+Backtrace:
+/Users/dan_nolan/Dropbox/work/Projects/*personal/portfolio/site_main/jekyll/portfolio-jekyll/css/main.scss:7
+/usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:1163:in `expected'
+/usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:1099:in `expected'
+/usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:1094:in `tok!'
+/usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:641:in `block'
+/usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:635:in `ruleset'
+/usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:660:in `block_child'
+/usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:650:in `block_contents'
+/usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:117:in `stylesheet'
+/usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:42:in `parse'
+/usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/engine.rb:393:in `_to_tree'
+/usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/engine.rb:268:in `render'
+/usr/local/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/usr/local/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/usr/local/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:491:in `update_stylesheet'
+/usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:293:in `watch'
+/usr/local/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
+/usr/local/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
+/usr/local/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/usr/local/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/usr/local/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/usr/local/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/usr/local/lib/ruby/gems/2.1.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+/usr/local/lib/ruby/gems/2.1.0/gems/compass-1.0.3/bin/compass:44:in `call'
+/usr/local/lib/ruby/gems/2.1.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+/usr/local/bin/compass:23:in `load'
+/usr/local/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...rt \"breakpoint\"\": expected \"{\", was \";\"\A         on line 7 of /Users/dan_nolan/Dropbox/work/Projects/*personal/portfolio/site_main/jekyll/portfolio-jekyll/css/main.scss\A \A 2: # Only the main Sass file needs front matter (the dashes are enough)\A 3: ---\A 4: //@charset \"utf-8\";\A 5: \A 6: // Import partials from `sass_dir` (defaults to `_sass`)\A 7: @import \"breakpoint\";\A 8: @import \"reset\";\A 9: @import \"variables\";\A 10: @import \"mixins\";\A 11: @import \"layout\";\A 12: @import \"typography\";"; }

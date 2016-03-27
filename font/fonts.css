@@ -1,0 +1,19 @@
+@import url("//hello.myfonts.net/count/30ab28");
+
+@font-face {font-family: 'Decima';src: url('30AB28_0_0.eot');src: url('30AB28_0_0.eot?#iefix') format('embedded-opentype'),url('30AB28_0_0.woff2') format('woff2'),url('30AB28_0_0.woff') format('woff'),url('30AB28_0_0.ttf') format('truetype');}
+
+@font-face {
+    font-family: 'TiemposText-Regular';
+    src: url('TiemposTextWeb-Regular.eot');
+    src: url('TiemposTextWeb-Regular.eot?#iefix') format('embedded-opentype'),
+         url('TiemposTextWeb-Regular.woff2') format('woff2'),
+         url('TiemposTextWeb-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TiemposText-RegularItalic';
+    src: url('TiemposTextWeb-RegularItalic.eot');
+    src: url('TiemposTextWeb-RegularItalic.eot?#iefix') format('embedded-opentype'),
+         url('TiemposTextWeb-RegularItalic.woff2') format('woff2'),
+         url('TiemposTextWeb-RegularItalic.woff') format('woff');
+}

@@ -1,0 +1,14 @@
+.header {
+	&__title {
+		font-size: $size-h3;
+		@include copy-caps;
+	}
+	&__sub {
+		@include copy;
+	}
+}
+
+.border {
+	border-top: $hr;
+	height: 1px;
+}

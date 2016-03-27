@@ -1,0 +1,33 @@
+/* -- fonts -- */
+
+$decima: 'Decima', sans-serif;
+$tiempos: 'TiemposText-Regular', serif;
+$tiempos-italic: 'TiemposText-RegularItalic', serif;
+
+/* -- type size -- */
+/* 1.2 ratio */
+
+$size-h1: 3.1104em;
+$size-h2: 2.592em;
+$size-h3: 2.16em;
+$size-h4: 1.8em;
+$size-h5: 1.5em;
+$size-h6: 1.25em;
+$size-copy: 1.25em;
+$size-copy-sm: 1.04166667em;
+
+/* -- gutters -- */
+$gutter: 30px;
+
+/* -- borders -- */
+
+$hr: 1px solid black;
+
+/* -- breakpoints -- */
+
+$bp-narrow: 510px;
+$bp-medium: 542px;
+$bp-midrange: 650px;
+$bp-wide: 890px;
+$bp-ad-reflow: 977px;
+$bp-max: 1400px;
