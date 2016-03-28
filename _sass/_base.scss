@@ -1,10 +1,16 @@
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 .header {
+	margin-top: $gutter*2;
+	margin-bottom: $gutter;
 	&__title {
-		font-size: $size-h3;
-		@include copy-caps;
-	}
-	&__sub {
-		@include copy;
+		font-size: $size-h2;
+		@include copy-hed;
+		color: black;
+		//@include copy-caps;
 	}
 }
 
@@ -13,6 +19,23 @@
 	height: 1px;
 }
 
-.posts {
+.post-list {
 	list-style: none;
+	&__meta {
+		@include copy;
+		margin-bottom: $gutter/3;
+		display: block;
+	}
+	&__hed {
+		font-size: $size-h2;
+		@include copy-hed;
+		color: black;
+	}
+}
+
+.post {
+	&__title {
+		font-size: $size-h1;	
+		@include copy-hed;
+	}
 }
