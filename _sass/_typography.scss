@@ -1,11 +1,18 @@
 h1, h2, h3, h4, h5, h6 {
 	@include copy-hed;
-	margin-top: 0;
-	margin-bottom: $gutter;
 }
 
 p {
 	@include copy;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
 }
 
 h1 {
@@ -25,20 +32,4 @@ h5 {
 }
 h6 {
 	font-size: $size-h6;
-}
-
-
-
-/* -- utilities -- */
-
-.caps {
-	@include copy-caps;
-}
-
-.copy {
-	@include copy;
-}
-
-.hed {
-	@include copy-hed;
 }

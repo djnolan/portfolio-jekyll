@@ -16,6 +16,55 @@
 
 }
 
+@mixin copy-small {
+	@include copy;
+	font-size: $size-copy-sm;
+}
+
+@mixin grid {
+	padding: 0 $gutter/2;
+	float: left;
+}
+
+@mixin max-width {
+	max-width: 1400px;
+	padding: 0 $gutter/2;
+	@include media-query($bp-wide) {
+		padding: 0 $gutter;
+		margin: 0 auto;
+	}
+}
+
+@mixin max-width-grid {
+	@include max-width;
+	padding: 0;
+	@include media-query($bp-wide) {
+		padding: 0 $gutter/2;
+	}
+}
+
+@mixin stock-column {
+	padding: 0 $gutter/2;
+	//margin: 1em 0;
+	@include media-query($bp-wide) {
+		width: 690px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@mixin link-border {
+	border-bottom: 1px solid black;
+}
+
+@mixin clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {

@@ -1,0 +1,19 @@
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* -- type -- */
+
+.caps {
+	@include copy-caps;
+}
+
+.copy {
+	@include copy;
+}
+
+.hed {
+	@include copy-hed;
+}

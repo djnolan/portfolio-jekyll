@@ -17,6 +17,10 @@ exclude: [about.md, contact.md]
 sass:
   style: compressed
 
+collections:
+  projects:
+    output: true
+
 # Build settings
 markdown: kramdown
 

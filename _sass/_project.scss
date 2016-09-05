@@ -1,0 +1,151 @@
+.header {
+	@include max-width;
+	padding-top: $gutter;
+	padding-bottom: $gutter;
+	position: relative;
+	@include media-query($bp-wide) {
+		padding-top: $gutter;
+		padding-bottom: $gutter;
+	}
+	&__hgroup {
+		@include media-query($bp-wide) {
+			float: left;
+		}
+	}
+	&__title {
+		font-size: $size-h5;
+		@include copy-caps;
+		margin-bottom: .15em;
+		a {
+			@include link-border;
+		}
+	}
+	&__sub {
+		@include copy;
+		font-family: $tiempos-italic;
+		line-height: 1.25em; 
+		font-size: $size-h3;
+		margin-bottom: 0;
+	}
+	.nav {
+		position: absolute;
+		top: 50%;
+		right: $gutter/2;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		@include media-query($bp-wide) {
+			right: $gutter;
+		}
+		@include media-query($bp-wide) {
+			float: right;
+		}
+	}
+}
+.header:after {
+	@include clearfix;
+}
+
+.nav {
+	text-align: center;
+	&__list {
+		list-style-type: none;
+		margin: 0;
+	}
+	&__list-item {
+		display: inline-block;
+		a {
+			display: inline-block;
+		}
+
+		.pre {
+			display: block;
+			text-transform: uppercase;
+			font-family: $decima;
+			font-size: 2.4em;
+			margin-bottom: 0;
+			line-height: .75em;
+		}
+		.text {
+			display: block;
+			@include copy-caps;
+			font-family: $tiempos-italic;
+			font-size: 15px;
+			@include link-border;
+			padding-bottom: .2em;
+			position: relative;
+			left: -.1em;
+		}
+	}
+	&__list-item:first-child {
+		padding-bottom: 5px;
+		padding-top: 10px;
+	}
+	&__list-item:first-child:after {
+		content: "/";
+		display: inline-block;
+		height: 1em;
+		width: 1em;
+		font-size: 15px;
+		font-family: $tiempos;
+		padding-left: 8px;
+		vertical-align: 1em;
+	}
+	&__list-item:nth-child(2) {
+		padding-left: 7px;
+		padding-bottom: 5px;
+		padding-top: 10px;
+	}
+	&__list-item--stacked {
+		display: block;
+		font-family: $decima;
+		font-size: 2.4em;
+		text-transform: uppercase;
+		a {
+			@include link-border;
+		}
+	}
+	&__list-item--stacked:before {
+		content: "—";
+		display: block;
+		height: 1em;
+		width: 1em;
+		font-size: 15px;
+		font-family: $tiempos;
+		margin: 0 auto;
+		padding-bottom: 20px;
+	}
+}
+
+.main {
+	@include max-width;
+	img {
+		width: 100%;
+	}
+}
+
+.content {
+	&__text {
+		@include stock-column;
+
+		a {
+			@include link-border;
+		}
+	}
+
+	.nav {
+		margin: 0 auto;
+		@include stock-column;
+		margin: $gutter*2 auto;
+		@include media-query($bp-wide) {
+			width: 250px;
+		}
+	}
+}
+
+.footer {
+	@include max-width;
+	&__list {
+		list-style-type: none;
+	}
+}

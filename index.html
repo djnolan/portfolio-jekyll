@@ -2,17 +2,10 @@
 layout: default
 ---
 
-<div class="home">
+<header class="header">
+	<div class="header__hgroup">
+		<h1 class="header__title"><a href="">Dan Nolan</a></h1>
+		<h2 class="header__sub">—Designing graphics and crafting experiences since 2001</h2>
+	</div>
+</header>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li class="post-list__item">
-        <span class="post-list__meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2 class="post-list__hed"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  {% comment %}<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>{% endcomment %}
-
-</div>

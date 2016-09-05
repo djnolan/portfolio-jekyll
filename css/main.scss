@@ -7,8 +7,11 @@
 @import "reset";
 @import "variables";
 @import "mixins";
+@import "utilities";
 @import "layout";
 @import "typography";
-@import "base";
+@import "home";
+@import "project";
 @import "svg";
 @import url('../font/fonts.css');
+

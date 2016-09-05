@@ -16,38 +16,17 @@ $size-h6: 1.25em;
 $size-copy: 1.25em;
 $size-copy-sm: 1.04166667em;
 
-$size-fib-1: 85px;
-$size-fib-2: 52px;
-$size-fib-3: 32px;
-$size-fib-4: 20px;
-$size-fib-5: 12px;
-$size-fib-copy: 20px; 
-
 /* -- gutters -- */
 $gutter: 30px;
-
-/* -- grid -- */
-$col-full: 100%;
-$col-half: 50%;
-$col-61: 61.80339844527371%;	
-$col-38: 38.19660059385261%;	
-$col-23: 23.60679725756851%;
-$col-14: 14.58980296926301%;
-$col-9: 9.016994061473994%;
-$col-5: 5.572808767599441%;
-$col-3: 3.44418520723263%;
-$col-2: 2.128623506819158%;
-$col-1: 1.315561667319202%;
 
 /* -- borders -- */
 
 $hr: 1px solid black;
 
-/* -- breakpoints -- */
+/* -- media-querys -- */
 
 $bp-narrow: 510px;
 $bp-medium: 542px;
 $bp-midrange: 650px;
 $bp-wide: 890px;
 $bp-max: 1400px;
-

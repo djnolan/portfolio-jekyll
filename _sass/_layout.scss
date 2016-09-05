@@ -1,25 +1,15 @@
-/*
 .container {
 	max-width: 1400px;
-	@include breakpoint($bp-wide) {
+	@include media-query($bp-wide) {
 		padding: 0 $gutter/2;
 		margin: 0 auto;
 	}
 }
-*/
-
-.container {
-    max-width: 1400px;
-    @include media-query($bp-wide) {
-        padding: 0 $gutter/2;
-        margin: 0 auto;
-    }
-}
 
 [class*='col-'] {
 	padding: 0 $gutter/2;
+	float: left;
 	box-sizing: border-box;
-    float: left;
 }
 
 .col-full {
@@ -56,10 +46,18 @@
 	width: 1.315561667319202%;
 }
 
-.container:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+$col-85: 85.41019703%;
+$col-76: 76.39320274%;
+$col-61: 61.80339844527371%;
+$col-38: 38.19660059385261%;
+$col-23: 23.60679725756851%;
+$col-14: 14.58980296926301%;
+
+$col-10-12: 83.333333%;
+$col-9-12: 75%;
+$col-3-12: 25%;
+$col-2-12: 16.666667%;
+
+
 
 
