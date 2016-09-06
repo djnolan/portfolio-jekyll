@@ -17,7 +17,7 @@ layout: default
 </header>
 
 <div class="main">
-	<img class="main__img" src="../img/mountain.jpg" >
+	<img class="main__img" src="../img/lightning.jpg" >
 </div>
 
 <section class="content">
@@ -32,8 +32,9 @@ layout: default
 			<li class="nav__list-item nav__list-item--stacked"><a href="">Home</a></li>
 		</ul>
 	</nav>
+</section>
 
-	{% capture projects %}{{ page.collection }}{% endcapture %}
+{% capture projects %}{{ page.collection }}{% endcapture %}
 
 {% if page.collection %}
   {% assign document = site[projects] %}
@@ -54,18 +55,8 @@ layout: default
   {% assign prev = links %}
 {% endfor %}
 
-	<nav class="nav nav--secondary">
-		<ul class="nav__list">
-			{% if prevurl %}
-			<li class="nav__list-item"><a href="{{ prevurl }}"><span class="pre">Prev</span> <span class="text">Project</span></a></li>
-			{% endif %}
-			{% if nexturl %}
-			<li class="nav__list-item"><a href="{{ nexturl }}"><span class="pre">Next</span> <span class="text">Project</span></a></li>
-			{% endif %}
-			<li class="nav__list-item nav__list-item--stacked"><a href="">Home</a></li>
-		</ul>
-	</nav>
-</section>
+{% if prevurl %}<a href="{{ prevurl }}">Previous: {{ prevtitle l}}</a>{% endif %}<br />
+{% if nexturl %}<a href="{{ nexturl }}">Next: {{ nexttitle }}</a>{% endif %}
 
 <script>
 /* post pagination keyboard shortcuts */
