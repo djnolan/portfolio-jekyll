@@ -77,6 +77,16 @@
 			left: -.1em;
 		}
 	}
+	&__list-item.inactive {
+		a {
+			color: $light-gray;
+			pointer-events: none;
+       		cursor: default;
+		}
+		.text {
+			border-color: $light-gray;
+		}
+	}
 	&__list-item:first-child {
 		padding-bottom: 5px;
 		padding-top: 10px;
