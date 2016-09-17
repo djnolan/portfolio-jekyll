@@ -29,7 +29,7 @@ layout: default
   {% assign prev = links %}
 {% endfor %}
 
-	<nav class="nav">
+	<nav class="nav nav--primary">
 		<ul class="nav__list">
 			{% if prevurl %}
 			<li class="nav__list-item"><a href="{{ prevurl }}"><span class="pre">Prev</span> <span class="text">Project</span></a></li>
@@ -56,6 +56,9 @@ layout: default
 
 <aside class="info">
 	<div class="info__container">
+		{% if page.view_site %}
+		<a class="info__view-button" href="{{ page.view_site }}"><span class="pre">View</span> <span class="text"><span class="text__first">live</span> <span class="text__last">site</span></span></a>
+		{% endif %}
 		<div class="info__roles">
 			<div class="info__role-hed">Contributions:</div>
 			<ul class="info__role-list">
@@ -64,6 +67,7 @@ layout: default
 				{% endfor %}
 			</ul>
 		</div>
+
 	</div>
 </aside>
 

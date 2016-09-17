@@ -65,9 +65,9 @@
 
 @mixin content-column {
 	@include stock-column;
-	margin-left: 0;
+	margin-right: 0;
 	@include media-query($bp-wide) {
-		margin-left: 0;
+		margin-right: 0;
 		padding: 0 $gutter;
 	}
 	@include media-query(1150px) {
@@ -80,6 +80,19 @@
 
 @mixin link-border {
 	border-bottom: 1px solid black;
+}
+
+@mixin button-pre {
+	text-transform: uppercase;
+	font-family: $decima;
+	font-size: 2.4em;
+	line-height: .75em;
+}
+
+@mixin button-text {
+	@include copy-caps;
+	font-family: $tiempos-italic;
+	font-size: 15px;
 }
 
 @mixin clearfix {

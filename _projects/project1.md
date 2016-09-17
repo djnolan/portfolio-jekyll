@@ -2,6 +2,7 @@
 layout: project
 title: Zika Story
 image: mountain.jpg
+view_site: http://apps.frontline.org/zika-water/
 roles: 
  - user experience
  - visual design
