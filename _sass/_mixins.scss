@@ -53,6 +53,31 @@
 	}
 }
 
+@mixin stock-column-flex {
+	padding: 0 $gutter/2;
+	@include media-query($bp-wide) {
+		width: $col-6;
+		max-width: 690px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@mixin content-column {
+	@include stock-column;
+	margin-left: 0;
+	@include media-query($bp-wide) {
+		margin-left: 0;
+		padding: 0 $gutter;
+	}
+	@include media-query(1150px) {
+		margin-left: auto;
+		margin-right: auto;
+		@include stock-column-flex;
+		padding: 0 $gutter/2;
+	}
+}
+
 @mixin link-border {
 	border-bottom: 1px solid black;
 }

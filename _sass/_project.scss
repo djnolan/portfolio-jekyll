@@ -128,9 +128,10 @@
 }
 
 .nav--secondary {
-		margin: 0 auto;
-		@include stock-column;
-		margin: $gutter*2 auto;
+		@include content-column;
+		margin-top: $gutter*2;
+		margin-bottom: $gutter*2;
+		text-align: left;
 		.text {
 			font-family: $decima;
 			font-size: $size-copy-sm;
@@ -159,15 +160,57 @@
 
 .main {
 	@include max-width;
+	margin-bottom: $gutter;
+	@include media-query($bp-wide) {
+		margin-bottom: $gutter;
+	}
 	img {
 		width: 100%;
+	}
+}
+
+.info {
+	@include max-width-grid;
+	&__container {
+		@include grid;
+		float: right;
+		width: $col-2;
+		width: 228px;
+		padding: .65em $gutter/2 $gutter/2;
+	}
+	&__roles {
+		border: 4px solid $light-gray;
+		padding: 5px
+	}
+	&__role-hed {
+		@include copy-hed;
+		@include copy-caps;
+		font-size: $size-copy-exsm;
+		margin-bottom: .5em;
+		//color: $mid-gray;
+	}
+	&__role-list {
+		list-style-type: none;
+		@include copy-hed;
+		@include copy-caps;
+		font-size: $size-copy-exsm;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	&__role-list-item {
+		margin-bottom: .35em;
+	}
+	&__role-list-item:before {
+		content: "-";
+		margin-right: .2em;
+
 	}
 }
 
 .content {
 	&__main {
 		p {
-			@include stock-column;
+			@include content-column;
 			> a {
 				@include link-border;
 			}
@@ -181,3 +224,6 @@
 		list-style-type: none;
 	}
 }
+
+
+

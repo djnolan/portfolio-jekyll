@@ -46,8 +46,26 @@ layout: default
 </header>
 
 <div class="main">
+	{% if page.include %}
+	{% include {{ page.include }}.html %}
+	{% else %}
 	<img class="main__img" src="../img/{{ page.image }}" >
+	{% endif %}
 </div>
+
+
+<aside class="info">
+	<div class="info__container">
+		<div class="info__roles">
+			<div class="info__role-hed">Contributions:</div>
+			<ul class="info__role-list">
+				{% for role in page.roles %}
+					<li class="info__role-list-item">{{ role }}</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</aside>
 
 <section class="content">
 	<div class="content__main">
