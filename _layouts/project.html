@@ -45,13 +45,16 @@ layout: default
 	</nav>
 </header>
 
-<div class="main">
-	{% if page.include %}
-	{% include {{ page.include }}.html %}
-	{% else %}
-	<img class="main__img" src="../img/{{ page.image }}" >
-	{% endif %}
+{% if page.include %}
+{% include {{ page.include }}.html %}
+{% else %}
+<div class="cover-outer">
+	<div class="cover">
+		<img class="cover__img" src="../img/{{ page.image }}" >
+	</div>
 </div>
+{% endif %}
+
 
 
 <aside class="info">
