@@ -32,3 +32,19 @@ Unum laboramus urbanitas sit in, ius copiosae persecuti adolescens ex, his susci
 	</div>
 </div>
 
+Unum laboramus urbanitas sit in, ius copiosae persecuti adolescens ex, his suscipit vivendum cu. An nec laoreet electram evertitur, vel primis maiestatis eu. Ex sint oportere vulputate mea. Eu justo consectetuer his, tamquam iuvaret epicurei nam ut. Democritum sadipscing id eam. Bonorum definiebas dissentias ad qui, vel no movet offendit, an eos placerat recusabo mandamus.
+
+<div class="inline inline--wide-fill">
+	<div class="inline__fill-inner">
+		<div class="z-chart1">
+			<img class="shadow" src="../img/zika_water_chart.jpg" alt="">
+		</div>
+		<div class="z-chart2">
+			<img class="shadow" src="../img/zika_mosq_chart.jpg" alt="">
+		</div>
+		<div class="z-chart3">
+			<img class="shadow" src="../img/zika_trash_chart.jpg" alt="">
+		</div>
+	</div>
+</div>
+

@@ -313,6 +313,20 @@
 		width: $col-2;
 		padding-right: 0;
 	}
+	.z-chart1 {
+		@include grid;
+		width: $col-4;
+		padding-left: 0;
+	}
+	.z-chart2 {
+		@include grid;
+		width: $col-5;	
+	}
+	.z-chart3 {
+		@include grid;
+		width: $col-3;
+		padding-right: 0;
+	}
 }
 
 .inline__fill-inner:after {
