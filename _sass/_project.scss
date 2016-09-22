@@ -282,10 +282,23 @@
 
 .inline--wide {
 	@include max-width;
+	img {
+			width: 100%;
+	}
 }
 
 .inline--column {
 	@include content-column;
+}
+.inline-borders:before {
+	border-top: $hr-gray;
+	@include before-after;
+	padding-bottom: $gutter;
+}
+.inline-borders:after {
+	border-bottom: $hr-gray;
+	@include before-after;
+	padding-top: $gutter;
 }
 
 .inline--wide-fill {
@@ -297,6 +310,10 @@
 		img {
 			width: 100%;
 		}
+	}
+
+	.inline__fill-inner--column {
+		@include content-column;
 	}
 
 	.z-map-lg {
@@ -314,18 +331,22 @@
 		padding-right: 0;
 	}
 	.z-chart1 {
-		@include grid;
-		width: $col-4;
-		padding-left: 0;
+		//@include grid;
+		//width: $col-4;
+		//padding-left: 0;
+		padding-bottom: $gutter;
+		padding-top: $gutter;
 	}
 	.z-chart2 {
-		@include grid;
-		width: $col-5;	
+		//@include grid;
+		//width: $col-5;
+		padding-bottom: $gutter;	
 	}
 	.z-chart3 {
-		@include grid;
-		width: $col-3;
-		padding-right: 0;
+		//@include grid;
+		//width: $col-3;
+		//padding-right: 0;
+		padding-bottom: $gutter;
 	}
 }
 

@@ -98,6 +98,13 @@
 	font-size: 15px;
 }
 
+@mixin before-after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+}
+
 @mixin clearfix {
 	content: "";
 	display: table;
