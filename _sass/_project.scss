@@ -262,6 +262,7 @@
 	&__main {
 		p {
 			@include content-column;
+			@include content-chunk;
 			> a {
 				@include link-border;
 			}
@@ -270,12 +271,23 @@
 				margin: .5em 0;
 			}
 		}
+		> h2, > h3, > h4, > h5, > h6 {
+			@include content-column;
+			margin-bottom: -.25em;
+		}
+		h2 {
+			font-size: $size-h4;
+			@include copy-caps;
+			@include media-query($bp-wide) {
+				font-size: $size-h3;
+			}
+		}
 	}
 }
 
 .inline {
-	margin: 2em 0;
-	> img {
+	margin: 3em 0;
+	img {
 		width: 100%;
 	}
 }
@@ -311,43 +323,38 @@
 			width: 100%;
 		}
 	}
+}
 
-	.inline__fill-inner--column {
-		@include content-column;
-	}
+.inline__fill-inner--column {
+	@include content-column;
+	padding: $gutter 0;
+}
 
-	.z-map-lg {
-		@include grid;
-		width: $col-7;
-		padding-left: 0;
-	}
-	.z-map-md {
-		@include grid;
-		width: $col-3;
-	}
-	.z-map-sm {
-		@include grid;
-		width: $col-2;
-		padding-right: 0;
-	}
-	.z-chart1 {
-		//@include grid;
-		//width: $col-4;
-		//padding-left: 0;
-		padding-bottom: $gutter;
-		padding-top: $gutter;
-	}
-	.z-chart2 {
-		//@include grid;
-		//width: $col-5;
-		padding-bottom: $gutter;	
-	}
-	.z-chart3 {
-		//@include grid;
-		//width: $col-3;
-		//padding-right: 0;
-		padding-bottom: $gutter;
-	}
+.z-map-lg {
+	@include grid;
+	width: $col-7;
+	padding-left: 0;
+}
+.z-map-md {
+	@include grid;
+	width: $col-3;
+}
+.z-map-sm {
+	@include grid;
+	width: $col-2;
+	padding-right: 0;
+}
+.z-chart1 {
+	//@include grid;
+	//width: $col-4;
+	//padding-left: 0;
+	padding-bottom: $gutter;
+	//padding-top: $gutter;
+}
+.z-chart2 {
+	//@include grid;
+	//width: $col-5;
+	//padding-bottom: $gutter;	
 }
 
 .inline__fill-inner:after {
