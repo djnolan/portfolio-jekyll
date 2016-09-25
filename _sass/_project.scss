@@ -363,8 +363,29 @@
 
 .footer {
 	@include max-width;
-	&__list {
+	&__inner {
+		border-top: $hr;
+	}
+	&__nav {
 		list-style-type: none;
+		@include content-column;
+		padding: 0;
+		font-family: $decima;
+		font-size: $size-copy-exsm;
+		padding-top: $gutter/2;
+		padding-bottom: $gutter*2;
+		@include media-query($bp-wide) {
+			padding: 0;
+			padding-top: $gutter/2;
+			padding-bottom: $gutter*2;
+		}
+	}
+	&__nav-item {
+		display: inline-block;
+		margin-right: $gutter/2;
+		a {
+			@include link-border;
+		}
 	}
 }
 

@@ -1,6 +1,7 @@
 ---
 layout: project
 title: What's in a Supplement
+date: 2016-03-15
 image: lightning.jpg
 ---
 

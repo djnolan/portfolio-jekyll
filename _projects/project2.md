@@ -1,7 +1,8 @@
 ---
 layout: project
 title: Police Quiz
-include: test-include
+date: 2016-02-15
+image: america.jpg
 ---
 
 Ex natum intellegam ius, mazim complectitur his cu. His an impetus euripidis, facer nominavi mediocritatem vis an. Vitae accumsan ea est, in postea conclusionemque duo. Corpora partiendo moderatius his ad, an discere gubergren his. Paulo diceret referrentur no per, mei ex veniam laboramus, no elit maiestatis sea.
