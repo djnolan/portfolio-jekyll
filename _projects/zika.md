@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Zika Story
-date: 2016-01-15
+date: 2016-08-10
 include: zika
 view_site: http://apps.frontline.org/zika-water/
 roles: 
@@ -11,7 +11,7 @@ roles:
  - HTML/CSS
 ---
 
-Zika Uncontained is a long form text article with integrated video and graphics—its goal is to show how infrastructure issues in Brazil have worsened the spread of Zika. The project was spearheaded by reporter Katie Worth and video producer Michelle Mizner, I worked with them to nail down the user experience and execute the visual design and graphics.
+[Zika Uncontained](http://apps.frontline.org/zika-water/) is a long form text article with integrated video and graphics—its goal is to show how infrastructure issues in Brazil have worsened the spread of Zika. The project was spearheaded by reporter [Katie Worth](https://twitter.com/katieworth) and video producer [Michelle Mizner](https://twitter.com/michellemizner), I worked with them to nail down the user experience and execute the visual design and graphics.
 
 ## The Illustrations
 Each chapter beginning is marked with an illustration of the mosquito life cycle. The tone of the illustrations had to match the seriousness of the piece. I chose to do realistic mosquito illustrations rendered in hand-drawn pencil lines.

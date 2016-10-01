@@ -38,6 +38,13 @@
 	}
 }
 
+@mixin max-width-10 {
+	max-width: 1167px;
+}
+@mixin max-width-8 {
+	max-width: 933px;
+}
+
 @mixin max-width-grid {
 	@include max-width;
 	padding: 0;
@@ -90,7 +97,7 @@
 }
 
 @mixin link-border {
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid $accent;
 }
 
 @mixin button-pre {
