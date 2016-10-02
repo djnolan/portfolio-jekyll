@@ -35,7 +35,7 @@
 		font-size: $size-h3;
 		margin-bottom: 0;
 		position: relative;
-		margin-left: 1em;
+		//margin-left: 1em;
 	}
 	&__dash {
 		position: absolute;
@@ -167,6 +167,8 @@
 	@include max-width;
 	img {
 		max-width: 100%;
+		display: block;
+		margin: 0 auto;
 	}
 }
 
@@ -195,6 +197,12 @@
 		width: $col-6;
 		@include grid;
 	}
+
+	img {
+		max-width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
 }
 .split:first-child {
 	padding-bottom: $gutter;
@@ -216,6 +224,13 @@
 .split.mobile:last-child {
 	@include media-query($bp-wide) {
 		width: $col-3;
+	}
+}
+
+.split.mobile.m {
+	img {
+		width: 100%;
+		max-width: 320px;
 	}
 }
 
@@ -264,9 +279,9 @@
 	&__view-button {
 		color: white;
 		background-color: black;
-		border-right: 2px solid white;
-		border-bottom: 2px solid white;
-		box-shadow: 5px 5px 0 $accent;
+		//border-right: 2px solid white;
+		//border-bottom: 2px solid white;
+		box-shadow: 5px 5px 0 $light-gray;
 		text-align: center;
 		display: block;
 		padding: .25em;
