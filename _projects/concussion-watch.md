@@ -12,15 +12,8 @@ roles:
 
 Lorem ipsum dolor sit amet, at assum omnium corpora pro, sea iusto expetenda ei. Liber aliquando no usu. In detracto aliquando cum. Nominati adolescens reprimique nam ex, adhuc nostro definitionem quo ad. Nobis euismod fierent id eos, mel id eros dolor. Mea cu euripidis prodesset. Labore utroque adipiscing eum ea, vis ex oratio commodo, qui ut qualisque deseruisse.
 
-<div class="inline inline--wide-fill">
-	<div class="inline__fill-inner thin">
-		<div class="split mobile">
-			<img class="main__img shadow" src="../img/concussion_plyr_d.jpg" >
-		</div>
-		<div class="split mobile m">
-			<img class="main__img shadow" src="../img/concussion_plyr_m.jpg" >
-		</div>
-	</div>
+<div class="inline inline--column">
+	<img class="main__img border" src="../img/concussion_plyr_d.jpg" >
 </div>
 
 Lorem ipsum dolor sit amet, at assum omnium corpora pro, sea iusto expetenda ei. Liber aliquando no usu. In detracto aliquando cum. Nominati adolescens reprimique nam ex, adhuc nostro definitionem quo ad. Nobis euismod fierent id eos, mel id eros dolor. Mea cu euripidis prodesset. Labore utroque adipiscing eum ea, vis ex oratio commodo, qui ut qualisque deseruisse.

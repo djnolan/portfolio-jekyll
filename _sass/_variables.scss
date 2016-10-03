@@ -9,6 +9,7 @@ $tiempos-italic: 'TiemposText-RegularItalic', serif;
 $light-gray: #ccc;
 $mid-gray: #999;
 $ex-light-gray: #ddd;
+$exex-light-gray: #e5e5e5;
 $super-light-gray: #f2f2f2;
 $accent: black;
 
@@ -31,7 +32,7 @@ $gutter: 30px;
 /* -- borders -- */
 
 $hr: 1px solid black;
-$hr-gray: 1px solid $ex-light-gray;
+$hr-gray: 1px solid $exex-light-gray;
 
 /* -- media-querys -- */
 

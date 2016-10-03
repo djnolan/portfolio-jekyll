@@ -29,16 +29,16 @@ I tried a couple of different directions before arriving at this solution. In an
 ## The Map
 The article focused on one neighborhood in Recife, Brazil where the mosquito problem was at its worst. We wanted to show a map of the city and highlight the neighborhood to orient the user and show the relationship of this one small neighborhood to the larger city.
 
-<div class="inline inline--wide-fill">
+<div class="inline inline--wide">
 	<div class="inline__fill-inner">
 		<div class="z-map-lg">
-			<img class="shadow" src="../img/zika_map_lg.jpg" alt="Responsive map of Recife, Brazil">
+			<img class="border" src="../img/zika_map_lg.jpg" alt="Responsive map of Recife, Brazil">
 		</div>
 		<div class="z-map-md">
-			<img class="shadow" src="../img/zika_map_med.jpg" alt="Responsive map of Recife, Brazil">
+			<img class="border" src="../img/zika_map_med.jpg" alt="Responsive map of Recife, Brazil">
 		</div>
 		<div class="z-map-sm">
-			<img class="shadow" src="../img/zika_map_sm.jpg" alt="Responsive map of Recife, Brazil">
+			<img class="border" src="../img/zika_map_sm.jpg" alt="Responsive map of Recife, Brazil">
 		</div>
 	</div>
 </div>
@@ -48,15 +48,13 @@ The key infrastructure problem in the story is water access. And the map illustr
 ## The Charts
 Our reporter collected powerful data about water, income and mosquitos for the city of Recife. This was the early driver behind the story. We needed visuals that could communicate a connection between income, water access and a higher mosquito population. After many iterations we chose a direction that focused on the 10 wealthiest and 10 poorest neighborhoods. The water graphics are very stripped down, they show how many neighborhoods have constant running water and how many do not. And the mosquito graphics illustrate that the poorer neighborhoods have higher mosquito populations.
 
-<div class="inline inline--wide-fill">
-	<div class="inline__fill-inner--column">
+<div class="inline inline--column inline-borders">
 		<div class="z-chart1">
-			<img class="shadow" src="../img/zika_water_chart.jpg" alt="">
+			<img src="../img/zika_water_chart.jpg" alt="">
 		</div>
 		<div class="z-chart2">
-			<img class="shadow" src="../img/zika_mosq_chart.jpg" alt="">
+			<img src="../img/zika_mosq_chart.jpg" alt="">
 		</div>
-	</div>
 </div>
 
 I looked at many directions for visualizing this data. Our final solutions were the clearest and most compelling, and they represented the data in the most fair and accurate way. Here are some earlier design options for the mosquito and water graphics.
