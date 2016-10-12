@@ -11,7 +11,7 @@ layout: default
 {% capture projects %}{{ page.collection }}{% endcapture %}
 
 {% if page.collection %}
-  {% assign document = site[projects] %}
+  {% assign document = site[projects] | sort: "date" | reverse %}
 {% endif %}
 
 {% for links in document %}
