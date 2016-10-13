@@ -1,0 +1,14 @@
+.projects {
+	margin-bottom: $gutter*2;
+	@include content-column;
+	&__list {
+		list-style-type: none;
+	}
+	&__list-item {
+		@include copy;
+		margin-bottom: .5em;
+		a {
+			@include link-border;
+		}
+	}
+}

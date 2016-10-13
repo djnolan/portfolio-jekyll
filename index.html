@@ -4,8 +4,18 @@ layout: default
 
 <header class="header">
 	<div class="header__hgroup">
-		<h1 class="header__title"><a href="">{{ site.title }}</a></h1>
-		<h2 class="header__sub"><span class="header__dash">—</span>Designing graphics and crafting experiences since 2006</h2>
+		<h1 class="header__title"><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+		<h2 class="header__sub">Designing graphics and crafting experiences since 2006</h2>
 	</div>
 </header>
+
+<section class="projects">
+	<ul class="projects__list">
+		{% assign sorted = (site.projects | sort: 'date') | reverse %}
+		{% for item in sorted %}
+		<li class="projects__list-item"><a href="{{ item.url }}">{{ item.title }}</a></li>
+		{% endfor %}
+	</ul>
+
+</section>
 

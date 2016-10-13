@@ -10,7 +10,7 @@ title: Dan Nolan
 email: placeholder-email@gmail.com
 description: Placeholder site description
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://localhost:4000/" # the base hostname & protocol for your site
 twitter_username: fpo
 github_username:  fpo
 exclude: [about.md, contact.md]

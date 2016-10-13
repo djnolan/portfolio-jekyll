@@ -4,7 +4,7 @@ layout: default
 
 <header class="header">
 	<div class="header__hgroup">
-		<h1 class="header__title"><a href="">{{ site.title }}</a></h1>
+		<h1 class="header__title"><a href="{{ site.url }}">{{ site.title }}</a></h1>
 		<h2 class="header__sub">{{ page.title }}</h2>
 	</div>
 
@@ -93,7 +93,7 @@ layout: default
 			{% else %}
 			<li class="nav__list-item inactive"><a href="{{ nexturl }}"><span class="text">Next Project</span></a></li>
 			{% endif %}
-			<li class="nav__list-item nav__list-item"><a href=""><span class="text">Home</span></a></li>
+			<li class="nav__list-item nav__list-item"><a href="{{ site.url }}"><span class="text">Home</span></a></li>
 		</ul>
 	</nav>
 </section>
