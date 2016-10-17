@@ -2,6 +2,7 @@
 layout: project
 title: Fixing the Force
 date: 2015-12-14
+thumbnail: force_th.jpg
 include: force
 view_site: http://apps.frontline.org/fixingtheforce/
 roles:

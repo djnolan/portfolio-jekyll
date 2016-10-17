@@ -13,9 +13,19 @@ layout: default
 	<ul class="projects__list">
 		{% assign sorted = (site.projects | sort: 'date') | reverse %}
 		{% for item in sorted %}
-		<li class="projects__list-item"><a href="{{ item.url }}">{{ item.title }}</a></li>
+		<li class="projects__list-item">
+			<a href="{{ item.url }}">
+				<div class="projects__img-outer">
+					<img class="projects__img" src="img/{{ item.thumbnail }}">
+				</div>
+				<div class="projects__title-outer">
+					<div class="projects__title">
+						{{ item.title }}
+					</div>
+				</div>
+			</a>
+		</li>
 		{% endfor %}
 	</ul>
-
 </section>
 

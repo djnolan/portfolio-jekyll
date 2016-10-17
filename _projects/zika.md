@@ -2,6 +2,7 @@
 layout: project
 title: Zika Story
 date: 2016-08-10
+thumbnail: zika3_th.jpg
 include: zika
 view_site: http://apps.frontline.org/zika-water/
 roles: 

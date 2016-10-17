@@ -2,6 +2,7 @@
 layout: project
 title: Concussion Watch
 date: 2015-12-11
+thumbnail: concussion_th.png
 include: concussion
 view_site: http://apps.frontline.org/concussion-watch/
 roles:

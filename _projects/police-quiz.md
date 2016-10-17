@@ -2,6 +2,7 @@
 layout: project
 title: Police Quiz
 date: 2016-06-28
+thumbnail: police_th.jpg
 include: police
 view_site: http://www.pbs.org/wgbh/frontline/article/quiz-spot-the-illegal-police-stop/
 roles:

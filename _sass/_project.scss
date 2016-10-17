@@ -343,17 +343,13 @@
 
 	}
 	&__view-button {
+		@include button-shadow;
 		color: white;
 		background-color: black;
-		//border-right: 2px solid white;
-		//border-bottom: 2px solid white;
-		box-shadow: 5px 5px 0 $light-gray;
 		text-align: center;
 		display: block;
 		padding: .25em;
 		margin-bottom: $gutter/2;
-		position: relative;
-		right: 5px;
 		.pre {
 			@include button-pre;
 		}

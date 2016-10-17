@@ -1,14 +1,115 @@
 .projects {
-	margin-bottom: $gutter*2;
-	@include content-column;
-	&__list {
-		list-style-type: none;
-	}
-	&__list-item {
-		@include copy;
-		margin-bottom: .5em;
-		a {
-			@include link-border;
+	@include max-width-grid;
+	margin-top: $gutter/2;
+	&__section-title {
+		@include copy-hed;
+		@include copy-caps;
+		font-size: $size-h4;
+		padding: 0 $gutter/2;
+		@include media-query($bp-wide) {
+			font-size: $size-h3;
 		}
 	}
+	&__section-title:before {
+		@include before-after;
+		width: $gutter;
+		border-bottom: 2px solid $light-gray;
+		margin-bottom: .5em;
+	}
+	&__list {
+		list-style-type: none;
+		@include clearfix;
+		margin: 0;
+	}
+	&__list-item {
+		padding: 0 $gutter/2;
+		@include media-query($bp-midrange) {
+			@include grid;
+			width: $col-6;
+		}
+		margin-bottom: $gutter*2;
+		a {
+			@include clearfix;
+			pointer-events: none;
+			//background-color: $super-light-gray;
+			//padding: $gutter/2;
+			//position: relative;
+			//z-index: -2;
+		}
+		a:hover {
+			cursor: default;
+		}
+	}
+	&__list-item:nth-child(odd) {
+		//padding-right: 2px;
+	}
+	&__list-item:nth-child(even) {
+		//padding-left: 2px;
+		//position: relative;
+		//top: $gutter*2;
+	}
+	&__img-outer {
+		pointer-events: auto;
+		@include inner-shadow-lighter-med;
+		margin-bottom: $gutter/2;
+		@include media-query($bp-midrange) {
+			float: left;
+			width: $col-6;
+			margin-bottom: 0;
+		}
+	}
+	&__img-outer:hover {
+		cursor: pointer;
+	}
+	&__img {
+		max-width: 100%;
+		display: block;
+		position: relative;
+		z-index: -1;
+	}
+	&__title-outer {
+		margin-bottom: $gutter/2;
+		width: $col-10;
+		@include media-query($bp-midrange) {
+			float: left;
+			width: $col-6;
+			padding-left: $gutter/4;
+			margin-bottom: 0;
+		}
+		@include media-query($bp-wide) {
+			width: 40%;
+			padding-left: $gutter/2;
+		}
+	}
+	&__title {
+		pointer-events: auto;
+		@include copy-hed;
+		@include copy-caps;
+		font-size: $size-h5;
+		@include button-shadow;
+		background-color: black;
+		color: white;
+		padding: .175em;
+		padding-bottom: .1em;
+		@include media-query($bp-midrange) {
+			font-size: $size-h6;
+			right: 0;
+			top: $gutter;
+		}
+		@include media-query($bp-wide) {
+			font-size: $size-h5;
+		}
+		@include media-query(1140px) {
+			font-size: $size-h4;
+		}
+		@include media-query(1320px) {
+			font-size: $size-h3;
+		}
+	}
+	&__title:hover {
+		cursor: pointer;
+	}
 }
+
+
+
