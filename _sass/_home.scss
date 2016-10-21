@@ -29,45 +29,25 @@
 		a {
 			@include clearfix;
 			pointer-events: none;
-			//background-color: $super-light-gray;
-			//padding: $gutter/2;
-			//position: relative;
-			//z-index: -2;
 		}
-		a:hover {
-			cursor: default;
-		}
-	}
-	&__list-item:nth-child(odd) {
-		//padding-right: 2px;
-	}
-	&__list-item:nth-child(even) {
-		//padding-left: 2px;
-		//position: relative;
-		//top: $gutter*2;
 	}
 	&__img-outer {
-		pointer-events: auto;
-		@include inner-shadow-lighter-med;
 		margin-bottom: $gutter/2;
+		pointer-events: auto;
 		@include media-query($bp-midrange) {
 			float: left;
 			width: $col-6;
 			margin-bottom: 0;
 		}
 	}
-	&__img-outer:hover {
-		cursor: pointer;
-	}
 	&__img {
 		max-width: 100%;
 		display: block;
-		position: relative;
-		z-index: -1;
 	}
 	&__title-outer {
 		margin-bottom: $gutter/2;
 		width: $col-10;
+		pointer-events: auto;
 		@include media-query($bp-midrange) {
 			float: left;
 			width: $col-6;
@@ -80,19 +60,16 @@
 		}
 	}
 	&__title {
-		pointer-events: auto;
 		@include copy-hed;
 		@include copy-caps;
 		font-size: $size-h5;
-		@include button-shadow;
-		background-color: black;
-		color: white;
-		padding: .175em;
-		padding-bottom: .1em;
+		@include link-border;
+		display: inline;
+		line-height: 1.25em;
 		@include media-query($bp-midrange) {
 			font-size: $size-h6;
-			right: 0;
-			top: $gutter;
+			position: relative;
+			top: -.15em;
 		}
 		@include media-query($bp-wide) {
 			font-size: $size-h5;
@@ -103,12 +80,6 @@
 		@include media-query(1320px) {
 			font-size: $size-h3;
 		}
-	}
-	&__title:hover {
-		cursor: pointer;
-		box-shadow: 10px 10px 0 $light-gray;
-		right: 5px;
-		top: 25px;
 	}
 }
 

@@ -16,7 +16,7 @@ layout: default
 		{% for item in sorted %}
 		<li class="projects__list-item">
 			<a href="{{ item.url }}">
-				<div class="projects__img-outer">
+				<div class="projects__img-outer {% if item.thumb_class %}border{% endif %}">
 					<img class="projects__img" src="img/{{ item.thumbnail }}">
 				</div>
 				<div class="projects__title-outer">

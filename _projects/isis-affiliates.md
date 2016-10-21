@@ -3,6 +3,7 @@ layout: project
 title: ISIS Affiliates
 date: 2016-05-13
 thumbnail: isis_th.jpg
+thumb_class: border
 include: isis
 view_site: http://apps.frontline.org/isis-affiliates/
 roles: 
