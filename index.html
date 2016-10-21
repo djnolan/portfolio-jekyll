@@ -10,6 +10,7 @@ layout: default
 </header>
 
 <section class="projects">
+	<h2 class="projects__section-title">Projects</h2> 
 	<ul class="projects__list">
 		{% assign sorted = (site.projects | sort: 'date') | reverse %}
 		{% for item in sorted %}

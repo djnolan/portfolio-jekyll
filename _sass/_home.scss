@@ -4,11 +4,9 @@
 	&__section-title {
 		@include copy-hed;
 		@include copy-caps;
-		font-size: $size-h4;
+		font-size: $size-h5;
 		padding: 0 $gutter/2;
-		@include media-query($bp-wide) {
-			font-size: $size-h3;
-		}
+		margin-bottom: $gutter;
 	}
 	&__section-title:before {
 		@include before-after;
@@ -108,6 +106,9 @@
 	}
 	&__title:hover {
 		cursor: pointer;
+		box-shadow: 10px 10px 0 $light-gray;
+		right: 5px;
+		top: 25px;
 	}
 }
 
