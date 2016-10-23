@@ -1,3 +1,14 @@
+/*
+.header__title a, .nav__list-item a, .nav__list-item a .text, .content__main p > a, .projects__list-item a .projects__title {
+	transition: color .2s linear, border-color .2s linear;
+}
+
+.header__title a:hover, .nav__list-item a:hover, .nav__list-item a:hover .text, .content__main p > a:hover, .projects__list-item a:hover .projects__title {
+	color: $mid-gray;
+	border-color: $mid-gray;
+}
+*/
+
 .header {
 	@include max-width;
 	padding-top: $gutter;
@@ -361,6 +372,11 @@
 			}
 		}
 	}
+	/*
+	&__view-button:hover {
+		background-color: #666;
+	}
+	*/
 }
 
 .content {
@@ -498,7 +514,7 @@
 	}
 	&__nav {
 		list-style-type: none;
-		@include content-column;
+		//@include content-column;
 		padding: 0;
 		font-family: $decima;
 		font-size: $size-copy-exsm;

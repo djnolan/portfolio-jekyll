@@ -1,14 +1,14 @@
-.projects {
+.section {
 	@include max-width-grid;
 	margin-top: $gutter/2;
-	&__section-title {
+	&__title {
 		@include copy-hed;
 		@include copy-caps;
 		font-size: $size-h5;
 		padding: 0 $gutter/2;
 		margin-bottom: $gutter;
 	}
-	&__section-title:before {
+	&__title:before {
 		@include before-after;
 		width: $gutter;
 		border-bottom: 2px solid $light-gray;
@@ -44,41 +44,83 @@
 		max-width: 100%;
 		display: block;
 	}
-	&__title-outer {
+	&__p-title-outer {
 		margin-bottom: $gutter/2;
-		width: $col-10;
 		pointer-events: auto;
+		background-color: white;
 		@include media-query($bp-midrange) {
 			float: left;
 			width: $col-6;
-			padding-left: $gutter/4;
 			margin-bottom: 0;
+			left: -$gutter;
+			padding: 0 .35em .25em .35em;
+			position: relative;
 		}
 		@include media-query($bp-wide) {
 			width: 40%;
-			padding-left: $gutter/2;
+			padding: 0 .55em .15em .55em;
 		}
 	}
-	&__title {
+	&__p-title {
 		@include copy-hed;
 		@include copy-caps;
-		font-size: $size-h5;
+		font-size: $size-h4;
 		@include link-border;
 		display: inline;
 		line-height: 1.25em;
 		@include media-query($bp-midrange) {
-			font-size: $size-h6;
 			position: relative;
 			top: -.15em;
 		}
-		@include media-query($bp-wide) {
-			font-size: $size-h5;
-		}
 		@include media-query(1140px) {
-			font-size: $size-h4;
+			font-size: $size-h3;
 		}
 		@include media-query(1320px) {
 			font-size: $size-h3;
+		}
+	}
+}
+
+.section.writing {
+	//@include max-width;
+	.section__title {
+		//padding: 0;
+	}
+	.writing__list {
+		list-style-type: none;
+		margin-bottom: $gutter*3;
+	}
+	.writing__list-item {
+		margin-bottom: $gutter*2;
+		padding: 0 $gutter/2;
+		@include media-query($bp-midrange) {
+			width: $col-6;
+		}
+		a {
+			@include button-shadow;
+			background-color: black;
+			right: 0;
+			padding: .5em;
+			padding-bottom: .65em;
+			display: inline-block;
+			.btn-text {
+				@include copy-hed;
+				@include copy-caps;
+				font-size: $size-h4;
+				margin-bottom: .35em;
+				color: white;
+				@include media-query(1140px) {
+					font-size: $size-h3;
+				}
+				@include media-query(1320px) {
+					font-size: $size-h3;
+				}
+			}
+			.btn-label {
+				@include button-text;
+				color: $mid-gray;
+				//text-align: right;
+			}
 		}
 	}
 }

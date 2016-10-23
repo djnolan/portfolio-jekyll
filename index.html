@@ -9,18 +9,18 @@ layout: default
 	</div>
 </header>
 
-<section class="projects">
-	<h2 class="projects__section-title">Projects</h2> 
-	<ul class="projects__list">
+<section class="section projects">
+	<h2 class="section__title">Projects</h2> 
+	<ul class="section__list">
 		{% assign sorted = (site.projects | sort: 'date') | reverse %}
 		{% for item in sorted %}
-		<li class="projects__list-item">
+		<li class="section__list-item">
 			<a href="{{ item.url }}">
-				<div class="projects__img-outer {% if item.thumb_class %}border{% endif %}">
-					<img class="projects__img" src="img/{{ item.thumbnail }}">
+				<div class="section__img-outer {% if item.thumb_class %}border{% endif %}">
+					<img class="section__img" src="img/{{ item.thumbnail }}">
 				</div>
-				<div class="projects__title-outer">
-					<div class="projects__title">
+				<div class="section__p-title-outer">
+					<div class="section__p-title">
 						{{ item.title }}
 					</div>
 				</div>
@@ -28,5 +28,20 @@ layout: default
 		</li>
 		{% endfor %}
 	</ul>
+</section>
+
+<section class="section writing">
+	<h2 class="section__title">Writing</h2>
+
+	<ul class="writing__list">
+		<li class="writing__list-item">
+			<a href="https://medium.com/@nolan5million/designing-a-quiz-about-police-e64a7429831b#.bsewjo4z7">
+				<div class="btn-text">Designing a Quiz About Police</div>
+				<div class="btn-label">> Medium</div>
+			</a>
+		</li>
+	</ul>
+
+
 </section>
 

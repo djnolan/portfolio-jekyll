@@ -12,7 +12,5 @@ roles:
  - HTML/CSS
 ---
 
-Lorem ipsum dolor sit amet, at assum omnium corpora pro, sea iusto expetenda ei. Liber aliquando no usu. In detracto aliquando cum. Nominati adolescens reprimique nam ex, adhuc nostro definitionem quo ad. Nobis euismod fierent id eos, mel id eros dolor. Mea cu euripidis prodesset. Labore utroque adipiscing eum ea, vis ex oratio commodo, qui ut qualisque deseruisse.
-
-Lorem ipsum dolor sit amet, at assum omnium corpora pro, sea iusto expetenda ei. Liber aliquando no usu. In detracto aliquando cum. Nominati adolescens reprimique nam ex, adhuc nostro definitionem quo ad. Nobis euismod fierent id eos, mel id eros dolor. Mea cu euripidis prodesset. Labore utroque adipiscing eum ea, vis ex oratio commodo, qui ut qualisque deseruisse.
+Fixing the Force is a database of all police departments that have been investigated by the Department of Justice since 1995. There's a lot of information packed into a small space. The data is visualized through a map and timeline that allow the user to see variation by location and time. A categorized list provides a more detailed way of breaking down the departments, primarily by allegations like use of force and discriminatory policing. The user can then select a department for a detailed text description of how the investigation came to be and where it stands today.
 
