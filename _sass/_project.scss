@@ -462,7 +462,7 @@
 	padding-bottom: $gutter;
 }
 
-.z-map-lg {
+.thirds.unequal:nth-child(1) {
 	padding-bottom: $gutter;
 	@include media-query($bp-wide) {
 		@include grid;
@@ -471,7 +471,7 @@
 		padding-bottom: 0;
 	}
 }
-.z-map-md {
+.thirds.unequal:nth-child(2) {
 	display: none;
 	@include media-query($bp-wide) {
 		@include grid;
@@ -479,7 +479,7 @@
 		display: block;
 	}
 }
-.z-map-sm {
+.thirds.unequal:nth-child(3) {
 	text-align: center;
 	@include media-query($bp-wide) {
 		@include grid;
@@ -487,17 +487,11 @@
 		padding-right: 0;
 	}
 }
-.z-chart1 {
-	//@include grid;
-	//width: $col-4;
-	//padding-left: 0;
+.stack {
 	padding-bottom: $gutter;
-	//padding-top: $gutter;
 }
-.z-chart2 {
-	//@include grid;
-	//width: $col-5;
-	//padding-bottom: $gutter;	
+.stack:last-child {
+	padding-bottom: 0;
 }
 
 .inline__fill-inner:after {

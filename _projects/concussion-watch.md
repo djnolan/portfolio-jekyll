@@ -16,14 +16,11 @@ roles:
 
 I was responsible for evaluating the existing user experience—deciding which parts of the flow to keep and what to revisit. We kept the core of the experience in tact but cleaned up the layout and made the hierarchy of information and interaface clearer. 
 
-<div class="inline inline--column inline-borders">
-	<img src="../img/concussion_flow.png">
-</div>
+{% include inline-col.html inline_img='concussion_flow.png' class='topbtm-border' %}
+
 
 After I spent many months designing a system of components for the [FRONTLINE website](http://www.pbs.org/wgbh/frontline/) redesign, this was an opoortunity to apply the new visual language of the site to a more specific and customized context with this interactive. 
 
-<div class="inline inline--column">
-	<img class="main__img border" src="../img/concussion_plyr_d.jpg" >
-</div>
+{% include inline-col.html inline_img='concussion_plyr_d.jpg' class='border' %}
 
 FRONTLINE deals with serious and sensitive topics. Designing for data and reporting about concussions was an exercise in restraint and minimalism. While the FRONTLINE site is dominated by photographic iamgery and video, the design here needed to be clean and bold and driven by typography so the concussion numbers could stand alone without distraction.
