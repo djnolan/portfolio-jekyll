@@ -26,7 +26,7 @@ I spent most of 2015 leading the redesign of the [FRONTLINE website](http://www.
 {% include inline-col.html inline_img='heroin_data_art.jpg' %}
 [How Bad is the Opioid Epidemic?](http://www.pbs.org/wgbh/frontline/article/how-bad-is-the-opioid-epidemic/) The goal of this piece was to communicate just how big and how deadly the opioid crisis has become. I took the lead in researching the mortality data and in shaping the story that became an article with embedded charts and graphics.
 
-{% include inline-wide-thirds.html inline_img1='heroin_data_wr.jpg' inline_img2='heroin_data1.jpg' inline_img3='heroin_data2.jpg' class='border' %}
+{% include inline-col.html inline_img='heroin_data.jpg' class='topbtm-border' %}
 
 ## Children of Syria
 Lorem ipsum dolor sit amet, at assum omnium corpora pro, sea iusto expetenda ei. Liber aliquando no usu. In detracto aliquando cum. Nominati adolescens reprimique nam ex, adhuc nostro definitionem quo ad. Nobis euismod fierent id eos, mel id eros dolor. Mea cu euripidis prodesset. Labore utroque adipiscing eum ea, vis ex oratio commodo, qui ut qualisque deseruisse.

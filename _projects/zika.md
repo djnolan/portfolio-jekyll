@@ -26,7 +26,7 @@ I tried a couple of different directions before arriving at this solution. In an
 ## The Map
 The article focused on one neighborhood in Recife, Brazil where the mosquito problem was at its worst. We wanted to show a map of the city and highlight the neighborhood to orient the user and show the relationship of this one small neighborhood to the larger city.
 
-{% include inline-wide-thirds.html mod='unequal' inline_img1='zika_map_lg.jpg' inline_img2='zika_map_med.jpg' inline_img3='zika_map_sm.jpg' class='border' %}
+{% include inline-wide-thirds-unequal.html mod='unequal' inline_img1='zika_map_lg.jpg' inline_img2='zika_map_med.jpg' inline_img3='zika_map_sm.jpg' %}
 
 The key infrastructure problem in the story is water access. And the map illustrates the irony of a city surrounded by ocean and rivers, but a city that struggles to deliver constant running water to its residents—particularly its poor. The information card introduces data that is covered in greater detail later. The map and data graphics needed to treated as self-contained, responsive layouts with customized type size optimization and unique breakpoints. 
 

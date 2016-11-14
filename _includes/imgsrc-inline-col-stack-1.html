@@ -1,0 +1,34 @@
+{% if include.inline_img1 contains '.jpg' %}
+<img class="{% if include.class1 %} {{ include.class1 }}{% endif %}" src="../img/{{ include.inline_img1 | replace: '.jpg', '-860.jpg' }}"
+	alt="{{ include.alt }}"
+	sizes="(min-width:890px) 660px, (min-width:542px) 860px, 512px"
+	srcset="../img/{{ include.inline_img1 | replace: '.jpg', '-512.jpg' }} 512w,
+			../img/{{ include.inline_img1 | replace: '.jpg', '-660.jpg' }} 660w,
+			../img/{{ include.inline_img1 | replace: '.jpg', '-860.jpg' }} 860w,
+			../img/{{ include.inline_img1 | replace: '.jpg', '-1024.jpg' }} 1024w,
+			../img/{{ include.inline_img1 | replace: '.jpg', '-1320.jpg' }} 1320w,
+			../img/{{ include.inline_img1 | replace: '.jpg', '-1720.jpg' }} 1720w"
+/>
+{% endif %}
+{% if include.inline_img1 contains '.png' %}
+<img class="{% if include.class1 %} {{ include.class1 }}{% endif %}" src="../img/{{ include.inline_img1 | replace: '.png', '-860.png' }}"
+	alt="{{ include.alt }}"
+	sizes="(min-width:890px) 660px, (min-width:542px) 860px, 512px"
+	srcset="../img/{{ include.inline_img1 | replace: '.png', '-512.png' }} 512w,
+			../img/{{ include.inline_img1 | replace: '.png', '-660.png' }} 660w,
+			../img/{{ include.inline_img1 | replace: '.png', '-860.png' }} 860w,
+			../img/{{ include.inline_img1 | replace: '.png', '-1024.png' }} 1024w,
+			../img/{{ include.inline_img1 | replace: '.png', '-1320.png' }} 1320w,
+			../img/{{ include.inline_img1 | replace: '.png', '-1720.png' }} 1720w"
+/>
+{% endif %}
+{% if include.inline_img1 contains '.gif' %}
+<img class="{% if include.class1 %} {{ include.class1 }}{% endif %}" src="../img/{{ include.inline_img1 | replace: '.gif', '-860.gif' }}"
+	alt="{{ include.alt }}"
+	sizes="(min-width:890px) 660px, (min-width:542px) 860px, 512px"
+	srcset="../img/{{ include.inline_img1 | replace: '.gif', '-512.gif' }} 512w,
+			../img/{{ include.inline_img1 | replace: '.gif', '-660.gif' }} 660w,
+			../img/{{ include.inline_img1 | replace: '.gif', '-860.gif' }} 860w,
+			../img/{{ include.inline_img1 | replace: '.gif', '-1024.gif' }} 1024w"
+/>
+{% endif %}

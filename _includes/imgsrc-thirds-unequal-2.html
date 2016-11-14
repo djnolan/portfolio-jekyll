@@ -1,0 +1,8 @@
+{% if include.inline_img2 contains '.jpg' %}
+<img class="main__img{% if include.class %} {{ include.class }}{% endif %}" src="../img/{{ include.inline_img2 | replace: '.jpg', '-305.jpg' }}"
+	alt="{{ include.alt }}"
+	sizes="(min-width:890px) 305px, 305px"
+	srcset="../img/{{ include.inline_img2 | replace: '.jpg', '-305.jpg' }} 305w,
+			../img/{{ include.inline_img2 | replace: '.jpg', '-610.jpg' }} 610w"
+/>
+{% endif %}

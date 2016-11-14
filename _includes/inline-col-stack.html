@@ -1,8 +1,8 @@
 <div class="inline inline--column{% if include.class == 'topbtm-border' %} inline-borders{% endif %}">
 	<div class="stack">
-		<img class="{% if include.class1 %} {{ include.class1 }}{% endif %}" src="../img/{{ include.inline_img1 }}">
+		{% include imgsrc-inline-col-stack-1.html %}
 	</div>
 	<div class="stack">
-		<img class="{% if include.class2 %} {{ include.class2 }}{% endif %}" src="../img/{{ include.inline_img2 }}">
+		{% include imgsrc-inline-col-stack-2.html %}
 	</div>
 </div>
