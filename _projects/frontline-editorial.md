@@ -2,7 +2,7 @@
 layout: project
 title: FRONTLINE Editorial Design
 date: 2016-01-15
-thumbnail: editorial2_th.jpg
+thumbnail: editorial_th.jpg
 include: fl-editorial
 roles:
  - user experience

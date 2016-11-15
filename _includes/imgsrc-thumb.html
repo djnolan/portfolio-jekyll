@@ -1,30 +1,26 @@
 {% comment %}
 
-**This has not been started yet, check homepage thumb markup
+**this is done but the homepage thumb sizes are messed up
 
 {% endcomment %}
 
-{% if include.inline_img contains '.jpg' %}
-<img class="main__img{% if include.class == 'border' %} border{% endif %}" src="../img/{{ include.inline_img | replace: '.jpg', '-860.jpg' }}"
+{% if item.thumbnail contains '.jpg' %}
+<img class="section__img" src="img/{{ item.thumbnail | replace: '.jpg', '-656.jpg' }}"
 	alt="{{ include.alt }}"
-	sizes="(min-width:890px) 660px, (min-width:542px) 860px, 512px"
-	srcset="../img/{{ include.inline_img | replace: '.jpg', '-512.jpg' }} 512w,
-			../img/{{ include.inline_img | replace: '.jpg', '-660.jpg' }} 660w,
-			../img/{{ include.inline_img | replace: '.jpg', '-860.jpg' }} 860w,
-			../img/{{ include.inline_img | replace: '.jpg', '-1024.jpg' }} 1024w,
-			../img/{{ include.inline_img | replace: '.jpg', '-1320.jpg' }} 1320w,
-			../img/{{ include.inline_img | replace: '.jpg', '-1720.jpg' }} 1720w"
+	sizes="(min-width:890px) 328px, (min-width:650px) 207px, 619px"
+	srcset="img/{{ item.thumbnail | replace: '.jpg', '-207.jpg' }} 207w,
+			img/{{ item.thumbnail | replace: '.jpg', '-414.jpg' }} 414w,
+			img/{{ item.thumbnail | replace: '.jpg', '-656.jpg' }} 656w,
+			img/{{ item.thumbnail | replace: '.jpg', '-1238.jpg' }} 1238w"
 />
 {% endif %}
-{% if include.inline_img contains '.png' %}
-<img class="main__img{% if include.class == 'border' %} border{% endif %}" src="../img/{{ include.inline_img | replace: '.png', '-860.png' }}"
+{% if item.thumbnail contains '.png' %}
+<img class="section__img" src="img/{{ item.thumbnail | replace: '.png', '-656.jpg' }}"
 	alt="{{ include.alt }}"
-	sizes="(min-width:890px) 660px, (min-width:542px) 860px, 512px"
-	srcset="../img/{{ include.inline_img | replace: '.png', '-512.png' }} 512w,
-			../img/{{ include.inline_img | replace: '.png', '-660.png' }} 660w,
-			../img/{{ include.inline_img | replace: '.png', '-860.png' }} 860w,
-			../img/{{ include.inline_img | replace: '.png', '-1024.png' }} 1024w,
-			../img/{{ include.inline_img | replace: '.png', '-1320.png' }} 1320w,
-			../img/{{ include.inline_img | replace: '.png', '-1720.png' }} 1720w"
+	sizes="(min-width:890px) 328px, (min-width:650px) 207px, 619px"
+	srcset="img/{{ item.thumbnail | replace: '.png', '-207.png' }} 207w,
+			img/{{ item.thumbnail | replace: '.png', '-414.png' }} 414w,
+			img/{{ item.thumbnail | replace: '.png', '-656.png' }} 656w,
+			img/{{ item.thumbnail | replace: '.png', '-1238.png' }} 1238w"
 />
 {% endif %}
