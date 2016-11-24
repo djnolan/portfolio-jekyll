@@ -4,6 +4,7 @@ title: Fixing the Force
 date: 2015-12-14
 thumbnail: force_th.jpg
 thumb_class: border
+thumb_alt: Map and timeline showing Justice Department investigations of police departments.
 include: force
 view_site: http://apps.frontline.org/fixingtheforce/
 roles:

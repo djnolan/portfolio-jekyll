@@ -28,6 +28,7 @@
 		margin-bottom: $gutter*2;
 		a {
 			@include clearfix;
+			display: block;
 			pointer-events: none;
 		}
 	}

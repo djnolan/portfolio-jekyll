@@ -1,12 +1,10 @@
 {% comment %}
 
-**this is done but the homepage thumb sizes are messed up
-
 {% endcomment %}
 
 {% if item.thumbnail contains '.jpg' %}
 <img class="section__img" src="img/{{ item.thumbnail | replace: '.jpg', '-656.jpg' }}"
-	alt="{{ include.alt }}"
+	alt="{{ item.thumb_alt }}"
 	sizes="(min-width:890px) 328px, (min-width:650px) 207px, 619px"
 	srcset="img/{{ item.thumbnail | replace: '.jpg', '-207.jpg' }} 207w,
 			img/{{ item.thumbnail | replace: '.jpg', '-414.jpg' }} 414w,
@@ -16,7 +14,7 @@
 {% endif %}
 {% if item.thumbnail contains '.png' %}
 <img class="section__img" src="img/{{ item.thumbnail | replace: '.png', '-656.jpg' }}"
-	alt="{{ include.alt }}"
+	alt="{{ item.thumb_alt }}"
 	sizes="(min-width:890px) 328px, (min-width:650px) 207px, 619px"
 	srcset="img/{{ item.thumbnail | replace: '.png', '-207.png' }} 207w,
 			img/{{ item.thumbnail | replace: '.png', '-414.png' }} 414w,

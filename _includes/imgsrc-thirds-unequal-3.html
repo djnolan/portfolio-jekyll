@@ -1,6 +1,6 @@
 {% if include.inline_img3 contains '.jpg' %}
 <img class="main__img{% if include.class %} {{ include.class }}{% endif %}" src="../img/{{ include.inline_img3 | replace: '.jpg', '-375.jpg' }}"
-	alt="{{ include.alt }}"
+	alt="{{ include.alt3 }}"
 	sizes="(min-width:890px) 209px, 375px"
 	srcset="../img/{{ include.inline_img3 | replace: '.jpg', '-209.jpg' }} 209w,
 		    ../img/{{ include.inline_img3 | replace: '.jpg', '-375.jpg' }} 375w,
