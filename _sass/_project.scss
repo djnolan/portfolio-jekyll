@@ -314,16 +314,16 @@
 .info {
 	@include max-width-grid;
 	&__container {
-		padding: .65em $gutter/2 $gutter/2;
+		padding: .65em $gutter/2 $gutter*1.5;
 		@include media-query($bp-midrange) {
 			@include grid;
 			float: right;
 			width: 228px;
-			padding: .65em $gutter/2 $gutter/2 $gutter;
+			padding: 0 $gutter/2 $gutter/2 $gutter;
 		}
 		@include media-query(1150px) {
 			float: left;
-			padding: .65em $gutter $gutter/2 $gutter/2;
+			padding: 0 $gutter $gutter/2 $gutter/2;
 		}
 	}
 	&__roles {
@@ -380,6 +380,13 @@
 }
 
 .content {
+	&__date {
+		@include content-column;
+		@include copy-hed;
+		@include copy-caps;
+		font-size: $size-copy-exsm;
+		color: $mid-gray;
+	}
 	&__main {
 		p {
 			@include content-column;
