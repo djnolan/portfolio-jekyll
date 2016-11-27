@@ -31,10 +31,10 @@ I spent most of 2015 leading the redesign of the [FRONTLINE website](http://www.
 {% include inline-col.html inline_img='heroin_data.jpg' class='topbtm-border' alt='Charts and graphs showing heroin and opioid data.' %}
 
 ## Children of Syria
-Lorem ipsum dolor sit amet, at assum omnium corpora pro, sea iusto expetenda ei. Liber aliquando no usu. In detracto aliquando cum. Nominati adolescens reprimique nam ex, adhuc nostro definitionem quo ad. Nobis euismod fierent id eos, mel id eros dolor. Mea cu euripidis prodesset. Labore utroque adipiscing eum ea, vis ex oratio commodo, qui ut qualisque deseruisse.
+[Children of Syria By the Numbers](http://www.pbs.org/wgbh/frontline/article/children-of-syria-by-the-numbers/) is a piece that examines key facts about children in Syria that have been affected by the war. I gathered statistics from UN reports and databases and translated them into a clear visual language that highlights the effects of war on the health and development of children in the region. 
 
 {% include inline-wide-split.html inline_img1='syria_art.jpg' inline_img2='syria_numbers.jpg' alt1='Illustration showing a map of Syria with icons of children.' alt2='Charts showing statistics about children in Syria.' %}
 
-Nominati adolescens reprimique nam ex, adhuc nostro definitionem quo ad. Nobis euismod fierent id eos, mel id eros dolor. Mea cu euripidis prodesset. Labore utroque adipiscing eum ea, vis ex oratio commodo, qui ut qualisque deseruisse.
+As we do with all visual stories for FRONTLINE, the assets are converted into a graphics package for social media to engage our audience across platforms and drive traffic back to our site.
 
 {% include inline-col.html inline_img='syria.gif' alt='Animation showing statistics about children in Syria.' %}
