@@ -6,8 +6,11 @@
 @mixin copy {
 	font-family: $tiempos;
 	font-weight: normal;
-	font-size: $size-copy;
+	font-size: $size-copy-m;
 	line-height: 1.7em;
+	@include media-query($bp-narrow) {
+		font-size: $size-copy;
+	}
 }
 
 @mixin copy-caps {
