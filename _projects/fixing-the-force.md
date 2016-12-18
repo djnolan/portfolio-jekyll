@@ -13,5 +13,4 @@ roles:
  - HTML/CSS
 ---
 
-Fixing the Force is a database of all police departments that have been investigated by the Department of Justice since 1995. There's a lot of information packed into a small space. The data is visualized through a map and timeline that allow the user to see variation by location and time. A categorized list provides a more detailed way of breaking down the departments, primarily by allegations like use of force and discriminatory policing. The user can then select a department for a detailed text description of how the investigation came to be and where it stands today.
-
+Fixing the Force is a database of all police departments that have been investigated by the Department of Justice since 1995. There's a lot of information packed into a small space. The data is visualized through a map and a timeline that allow the user to make comparisons between the investigaton locations or groupings in time. A categorized list provides a more detailed way of breaking down the departments, primarily by allegations like use of force and discriminatory policing. The user can then select a department for a detailed text description of how the investigation started and where it stands today.

@@ -14,11 +14,11 @@ roles:
  - content research
 ---
 
-[Spot the Illegal Police Stop](http://www.pbs.org/wgbh/frontline/article/quiz-spot-the-illegal-police-stop/) is a text-based quiz with illustrations that asks the user to identify scenarios as constitutional or not. I initiated this project by researching Supreme Court case law, which the examples are based on. The reporter on my team then worked through the editorial details as I started the HTML and CSS, and tackled the main challenge on this project: the illustrations. 
+[Spot the Illegal Police Stop](http://www.pbs.org/wgbh/frontline/article/quiz-spot-the-illegal-police-stop/) is a text-based quiz with illustrations that asks the user to identify scenarios as constitutional or not. I started this project by researching Supreme Court case law, which the scenarios are based on. The editor on my team then worked through the content details as I started the HTML and CSS, and tackled the main challenge on this project: the illustrations. 
 
 {% include inline-col.html inline_img='police_d.jpg' class='border' alt='Web page screenshot showing the police quiz design.' %}
 
-The art had to srike the right tone for content, they had to be factually accurate and abstracted so the details weren't misleading and the drawing style needed to fit with the overall FRONTLINE style while wtill feeling fresh and unique to this feature.
+The art had to strike the right tone when paired with the content, it had to be factually accurate but also abstracted so the details weren't misleading. The drawing style needed to fit with the overall FRONTLINE style while still feeling fresh and unique to this feature.
 
 {% include inline-wide.html inline_img='police_lede.jpg' alt='Illustration of police officers and people.' %}
 
