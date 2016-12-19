@@ -70,13 +70,12 @@ layout: default
 				{% endfor %}
 			</ul>
 		</div>
-
 	</div>
+	<div class="info__date"><span class="date-text">{{ page.date_text }}</span><span class="date-year">{{ page.date_year }}</div>
 </aside>
 
 <section class="content">
 	<div class="content__main">
-		<div class="content__date">{% if page.date_override %}{{ page.date_override }}{% else %}{{ page.date | date: '%B %d, %Y' }}{% endif %}</div>
 
 		{{ content }}
 

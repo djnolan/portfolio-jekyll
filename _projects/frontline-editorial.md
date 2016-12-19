@@ -2,7 +2,8 @@
 layout: project
 title: FRONTLINE Editorial Design
 date: 2016-01-15
-date_override: January–April, 2016
+date_text: January–April
+date_year: 2016
 thumbnail: editorial_th.jpg
 thumb_alt: Icon pattern of foods health supplements.
 include: fl-editorial

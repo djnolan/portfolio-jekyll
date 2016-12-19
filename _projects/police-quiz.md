@@ -2,6 +2,8 @@
 layout: project
 title: Police Quiz
 date: 2016-06-28
+date_text: June 28
+date_year: 2016
 thumbnail: police_th.jpg
 thumb_alt: Illustration of police officers and people.
 include: police

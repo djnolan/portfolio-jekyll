@@ -2,6 +2,8 @@
 layout: project
 title: ISIS Affiliates
 date: 2016-05-13
+date_text: May 13
+date_year: 2016
 thumbnail: isis_th.jpg
 thumb_class: border
 thumb_alt: ISIS Affiliates web page design.

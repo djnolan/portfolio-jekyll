@@ -66,6 +66,11 @@
 	}
 }
 
+@mixin stock-column-grid {
+	@include stock-column;
+	padding: 0;
+}
+
 @mixin stock-column-flex {
 	padding-left: $gutter/2;
 	padding-right: $gutter/2;

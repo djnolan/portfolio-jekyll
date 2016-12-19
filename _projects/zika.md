@@ -2,6 +2,8 @@
 layout: project
 title: Zika Story
 date: 2016-08-10
+date_text: August 10
+date_year: 2016
 thumbnail: zika_th.jpg
 thumb_alt: Map of Recife, Brazil.
 include: zika

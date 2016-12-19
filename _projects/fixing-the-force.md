@@ -2,6 +2,8 @@
 layout: project
 title: Fixing the Force
 date: 2015-12-14
+date_text: December 14
+date_year: 2015
 thumbnail: force_th.jpg
 thumb_class: border
 thumb_alt: Map and timeline showing Justice Department investigations of police departments.

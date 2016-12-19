@@ -2,6 +2,8 @@
 layout: project
 title: Concussion Watch
 date: 2015-12-11
+date_text: December 11
+date_year: 2015
 thumbnail: concussion_th.png
 thumb_class: border
 thumb_alt: Concussion Watch interface showing NFL concussions and positions.
