@@ -329,32 +329,51 @@
 }
 
 .info {
-	@include stock-column-grid;
+	width: 100%;
+	@include stock-column;
 	margin-bottom: $gutter;
-	@include clearfix;
-	position: relative;
+	@include media-query($bp-narrow) {
+		padding: 0;
+		@include clearfix;
+	}
 	&__container {
-		@include grid;
-		width: $col-6;
-		float: right;
+		margin-bottom: 0;
+		@include media-query($bp-narrow) {
+			@include grid;
+			width: $col-6;
+			float: right;
+		}
 	}
 	&__date {
 		@include copy-hed;
 		@include copy-caps;
-		//color: $mid-gray;
-		@include grid;
-		padding-left: 23px;
-		padding-top: 8px;
-		float: left;
-		width: $col-6;
-		text-align: Left;
+		text-align: left;
+		margin-bottom: $gutter/2;
+		@include media-query($bp-narrow) {
+			@include grid;
+			//padding-left: 23px;
+			padding-top: 8px;
+			float: left;
+			width: $col-6;
+			margin-bottom: 0;
+		}
 		.date-text {
 			font-size: $size-copy-exsm;
-			display: block;
+			@include media-query($bp-narrow) {
+				display: block;
+			}
 		}
 		.date-year {
-			font-size: $size-h5;
-			display: block;
+			@include media-query($bp-narrow) {
+				display: block;
+				font-size: $size-h5;
+			}
+		}
+		.date-year:before {
+			content: ", ";
+			@include media-query($bp-narrow) {
+				display: none;
+			}
 		}
 	}
 	&__roles {
@@ -385,7 +404,7 @@
 
 	}
 	&__view-button {
-		@include button-shadow;
+		//@include button-shadow;
 		color: white;
 		background-color: black;
 		text-align: center;
@@ -405,6 +424,7 @@
 	}
 }
 
+/*
 .info:before {
 	@include before-after;
 	width: 1px;
@@ -414,12 +434,14 @@
 	left: $gutter/2;
 	top: 0;
 }
+*/
 
 .content {
 	&__main {
 		p {
 			@include stock-column;
-			@include content-chunk;
+			margin-top: 1em;
+			margin-bottom: 1em;
 			> a {
 				@include link-border;
 			}
@@ -435,6 +457,7 @@
 		h2 {
 			font-size: $size-h4;
 			@include copy-caps;
+			margin-top: 1em;
 			@include media-query($bp-wide) {
 				font-size: $size-h3;
 			}
