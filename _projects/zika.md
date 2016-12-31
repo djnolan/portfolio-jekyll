@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Zika Story
+title: Zika Uncontained
 date: 2016-08-10
 date_text: August 10
 date_year: 2016
