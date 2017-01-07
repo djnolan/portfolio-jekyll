@@ -13,7 +13,7 @@
 />
 {% endif %}
 {% if item.thumbnail contains '.png' %}
-<img class="section__img" src="img/{{ item.thumbnail | replace: '.png', '-656.jpg' }}"
+<img class="section__img" src="img/{{ item.thumbnail | replace: '.png', '-656.png' }}"
 	alt="{{ item.thumb_alt }}"
 	sizes="(min-width:890px) 328px, (min-width:650px) 207px, 619px"
 	srcset="img/{{ item.thumbnail | replace: '.png', '-207.png' }} 207w,
