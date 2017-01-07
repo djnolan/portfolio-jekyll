@@ -22,6 +22,9 @@
 @mixin copy-small {
 	@include copy;
 	font-size: $size-copy-sm;
+	@include media-query($bp-narrow) {
+		font-size: $size-copy-sm;
+	}
 }
 
 @mixin grid {

@@ -561,6 +561,10 @@
 	@include max-width;
 	&__inner {
 		border-top: 1px solid $exex-light-gray;
+		padding-bottom: $gutter*2;
+		@include media-query($bp-wide) {
+			padding-bottom: $gutter*2;
+		}
 	}
 	&__inner:before {
 		//@include hr-asterisk;
@@ -571,17 +575,20 @@
 		padding: 0;
 		font-family: $decima;
 		font-size: $size-copy-exsm;
-		padding-bottom: $gutter*2;
-		@include media-query($bp-wide) {
-			padding: 0;
-			padding-bottom: $gutter*2;
-		}
 	}
 	&__nav-item {
 		display: inline-block;
 		margin-right: $gutter/2;
 		a {
 			@include link-border;
+		}
+	}
+	&__description {
+		@include copy-small;
+		font-size: $size-copy-exsm;
+		max-width: 690px;
+		@include media-query($bp-narrow) {
+			font-size: $size-copy-exsm;
 		}
 	}
 }
