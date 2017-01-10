@@ -1,3 +1,31 @@
+body, html {
+	height: 100%;
+}
+
+.cover {
+	position: relative;
+	height: 100%;
+	min-height: 480px;
+	@include media-query($bp-midrange) {
+		min-height: 700px;		
+	}
+	&__image {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 100%;
+		max-width: 1000px;
+		padding: 0 $gutter/2 $gutter $gutter/2;
+		@include media-query($bp-narrow) {
+			padding: 0 $gutter $gutter $gutter;
+		}
+		@media (max-height: 767px) {
+			max-width: 933px;
+		}
+	}
+}
+
 .section {
 	@include max-width-grid;
 	margin-top: $gutter/2;
