@@ -11,12 +11,6 @@ layout: default
 
 {% if page.include %}
 {% include {{ page.include }}.html %}
-{% else %}
-<div class="cover-outer">
-	<div class="cover">
-		<img class="cover__img" src="../img/{{ page.image }}" >
-	</div>
-</div>
 {% endif %}
 
 <section class="content">
@@ -26,7 +20,7 @@ layout: default
 
 	</div>
 
-	<nav class="nav nav--secondary">
+	<nav class="nav nav--secondary nav--secondary-shell">
 		<ul class="nav__list">
 			<li class="nav__list-item nav__list-item"><a href="{{ site.url }}"><span class="text">Home</span></a></li>
 		</ul>
