@@ -11,9 +11,12 @@
 
 .header {
 	@include max-width;
-	padding-top: $gutter;
+	padding-top: $gutter/2;
 	padding-bottom: $gutter;
 	position: relative;
+	@include media-query($bp-narrow) {
+		padding-top: $gutter;
+	}
 	@include media-query($bp-wide) {
 		padding-top: $gutter;
 		padding-bottom: $gutter;
@@ -43,11 +46,14 @@
 		@include copy;
 		font-family: $tiempos-italic;
 		line-height: 1.25em; 
-		font-size: $size-h4;
+		font-size: $size-h5;
 		margin-bottom: 0;
 		position: relative;
 		//margin-left: 1em;
-		@include media-query(340px) {
+		@include media-query($bp-narrow) {
+			font-size: $size-h4;
+		}
+		@include media-query($bp-midrange) {
 			font-size: $size-h3;
 		}
 	}
