@@ -8,6 +8,7 @@ layout: default
 		<h2 class="header__sub">{{ page.title }}</h2>
 	</div>
 
+{% if page.date %}
 {% capture projects %}{{ page.collection }}{% endcapture %}
 
 {% if page.collection %}
@@ -28,6 +29,8 @@ layout: default
   {% endif %}
   {% assign prev = links %}
 {% endfor %}
+
+{% endif %}
 
 	<nav class="nav nav--primary">
 		<ul class="nav__list">
