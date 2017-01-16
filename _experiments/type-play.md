@@ -3,7 +3,7 @@ layout: project-shell
 title: Type Play
 ---
 
-A weekly typographic experiment—often telling or introspective, sometimes just a doodle. This an abstract typographic diary influenced by the events of my week. A way for me to brand my site, play with type and have an ongoing, low-stress project for 2017.
+A weekly typographic experiment—often telling or introspective, sometimes just a doodle. This is an abstract typographic diary influenced by the events of my week. A way for me to brand my site, play with type and have an ongoing, low-stress project for 2017.
 
 <section class="type-list">
 
