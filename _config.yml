@@ -8,7 +8,7 @@
 # Site settings
 title: Dan Nolan
 email: dan.nolan28@gmail.com
-description: Hello! I'm Dan Nolan. I'm an interactive designer and graphic designer working in Boston.
+description: Hello! I&rsquo;m Dan Nolan. I&rsquo;m an interactive designer and graphic designer working in Boston.
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site
 # url: "http://dannolandesign.com" # the base hostname & protocol for your site

@@ -3,9 +3,7 @@ layout: project-shell
 title: Type Play
 ---
 
-Every so often I update my homepage cover art with a new typographic doodle. They’re sometimes meaningful, sometimes not. They're a way to brand my site and play with letters. Here’s the full list.
-
-
+A weekly typographic experiment—often telling or introspective, sometimes just a doodle. This an abstract typographic diary influenced by the events of my week. A way for me to brand my site, play with type and have an ongoing, low-stress project for 2017.
 
 <section class="type-list">
 
