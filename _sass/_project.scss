@@ -289,6 +289,10 @@
 	}
 }
 .fourths {
+	@include grid;
+	@include media-query($bp-narrow) {
+		width: $col-6;
+	}
 	@include media-query($bp-wide) {
 		width: $col-3;
 	}
