@@ -1,4 +1,27 @@
 {% if include.inline_img4 contains '.jpg' %}
+<img class="main__img{% if include.class4 %} {{ include.class4 }}{% endif %}" src="../img/{{ include.inline_img4 | replace: '.jpg', '-626.jpg' }}"
+	alt="{{ include.alt4 }}"
+	sizes="94.1060903732809vw, (min-width:510px) 46.681664791901vw, (min-width:890px) 22.3571428571429vw"
+	srcset="../img/{{ include.inline_img4 | replace: '.jpg', '-313.jpg' }} 313w,
+			../img/{{ include.inline_img4 | replace: '.jpg', '-479.jpg' }} 479w,
+			../img/{{ include.inline_img4 | replace: '.jpg', '-626.jpg' }} 626w,
+			../img/{{ include.inline_img4 | replace: '.jpg', '-830.jpg' }} 830w"
+/>
+{% endif %}
+{% if include.inline_img4 contains '.png' %}
+<img class="main__img{% if include.class4 %} {{ include.class4 }}{% endif %}" src="../img/{{ include.inline_img4 | replace: '.png', '-626.png' }}"
+	alt="{{ include.alt4 }}"
+	sizes="94.1060903732809vw, (min-width:510px) 46.681664791901vw, (min-width:890px) 22.3571428571429vw"
+	srcset="../img/{{ include.inline_img4 | replace: '.png', '-313.jpg' }} 313w,
+			../img/{{ include.inline_img4 | replace: '.png', '-479.jpg' }} 479w,
+			../img/{{ include.inline_img4 | replace: '.png', '-626.jpg' }} 626w,
+			../img/{{ include.inline_img4 | replace: '.png', '-830.jpg' }} 830w"
+/>
+{% endif %}
+
+
+{% comment %}
+{% if include.inline_img4 contains '.jpg' %}
 <img class="main__img{% if include.class4 %} {{ include.class4 }}{% endif %}" src="../img/{{ include.inline_img4 }}"
 	alt="{{ include.alt4 }}"
 />
@@ -6,29 +29,6 @@
 {% if include.inline_img4 contains '.png' %}
 <img class="main__img{% if include.class4 %} {{ include.class4 }}{% endif %}" src="../img/{{ include.inline_img4 }}"
 	alt="{{ include.alt4 }}"
-/>
-{% endif %}
-
-
-{% comment %}
-{% if include.inline_img1 contains '.jpg' %}
-<img class="main__img{% if include.class1 %} {{ include.class1 }}{% endif %}" src="../img/{{ include.inline_img1 | replace: '.jpg', '-860.jpg' }}"
-	alt="{{ include.alt1 }}"
-	sizes="(min-width:890px) 816px, (min-width:542px) 860px, 512px"
-	srcset="../img/{{ include.inline_img1 | replace: '.jpg', '-512.jpg' }} 512w,
-			../img/{{ include.inline_img1 | replace: '.jpg', '-860.jpg' }} 860w,
-			../img/{{ include.inline_img1 | replace: '.jpg', '-1024.jpg' }} 1024w,
-			../img/{{ include.inline_img1 | replace: '.jpg', '-1632.jpg' }} 1632w"
-/>
-{% endif %}
-{% if include.inline_img1 contains '.png' %}
-<img class="main__img{% if include.class1 %} {{ include.class1 }}{% endif %}" src="../img/{{ include.inline_img1 | replace: '.png', '-860.png' }}"
-	alt="{{ include.alt1 }}"
-	sizes="(min-width:890px) 816px, (min-width:542px) 860px, 512px"
-	srcset="../img/{{ include.inline_img1 | replace: '.png', '-512.png' }} 512w,
-			../img/{{ include.inline_img1 | replace: '.png', '-860.png' }} 860w,
-			../img/{{ include.inline_img1 | replace: '.png', '-1024.png' }} 1024w,
-			../img/{{ include.inline_img1 | replace: '.png', '-1632.png' }} 1632w"
 />
 {% endif %}
 {% endcomment %}
