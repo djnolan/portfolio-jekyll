@@ -23,17 +23,7 @@
 	}
 	&__hgroup {
 		position: relative;
-		@include media-query($bp-wide) {
-			//float: left;
-		}
 	}
-	/*
-	&__hgroup:after {
-		@include hr-asterisk;
-		position: absolute;
-		bottom: -2.5em;
-	}
-	*/
 	&__title {
 		font-size: $size-h5;
 		@include copy-caps;
@@ -49,7 +39,6 @@
 		font-size: $size-h5;
 		margin-bottom: 0;
 		position: relative;
-		//margin-left: 1em;
 		@include media-query($bp-narrow) {
 			font-size: $size-h4;
 		}

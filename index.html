@@ -5,8 +5,13 @@ layout: default
 <header class="header hcover">
 	<div class="header__hgroup">
 		<h1 class="header__title"><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
-		<h2 class="header__sub">Designing graphics and crafting experiences since 2006</h2>
+		<h2 class="header__sub">Designing graphics <br>and crafting experiences <br>since 2006</h2>
 	</div>
+	<div class="big-arrow">
+		<div class="big-arrow__instruct">Scroll</div>
+	</div>
+	{% comment %}
+	//type covers
 	{% for cover in site.data.covers %}
 		{% if cover.active == 'yes' %}
 		<div class="hcover__image {{ cover.slug }}">
@@ -15,6 +20,8 @@ layout: default
 		{% endif %}
 	{% endfor %}
 	<a class="hcover__link" href="/experiments/type-play.html"><sup>*</sup>type play</a>
+	{% endcomment %}
+
 </header>
 
 <section class="section projects">
