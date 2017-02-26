@@ -34,8 +34,8 @@
 	}
 	&__sub {
 		@include copy;
-		font-family: $tiempos-italic;
-		line-height: 1.25em; 
+		font-family: $tiempos-italic; 
+		line-height: 1.35em;
 		font-size: $size-h5;
 		margin-bottom: 0;
 		position: relative;
