@@ -102,7 +102,6 @@ body, html {
 			width: $col-6;
 		}
 		a {
-			@include button-shadow;
 			background-color: black;
 			right: 0;
 			padding: .5em;
