@@ -132,6 +132,79 @@ body, html {
 
 /* -- covers -- */
 
+.header.hcover {
+	position: relative;
+	height: 100%;
+	margin-bottom: $gutter*2;
+	padding-top: 0;
+	@include media-query($bp-midrange) {
+		margin-bottom: $gutter*2.5;
+	}
+	@include media-query($bp-narrow) {
+		padding-top: $gutter;
+	}
+	.header__hgroup {
+		background-color: white;
+		padding-top: $gutter/2;
+		z-index: 2;
+		@include media-query($bp-narrow) {
+			padding-top: 0;
+			background-color: transparent;
+		}
+	}
+	.header__sub {
+		background-color: white;
+		padding-bottom: .175em;
+		display: block;
+		@include media-query($bp-narrow) {
+			display: inline;
+		}
+		.br {
+			@include media-query($bp-narrow) {
+				display: block;
+			}
+		}
+	}
+}
+
+.big-arrow {
+	position: absolute;
+	bottom: $gutter;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	width: 75%;
+	height: 550%;
+	background-position: 50% 100%;
+	@include icon-big-arrow;
+	@include media-query($bp-wide) {
+		bottom: $gutter*1.5;
+	}
+	&__instruct {
+		position: absolute;
+		bottom: 2.15%;
+		left: 50%;
+		transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		color: white;
+		@include copy-hed;
+		@include copy-caps;
+		font-size: $size-copy-exsm;
+		@include media-query($bp-narrow) {
+			bottom: 3%;
+		}
+		@include media-query($bp-midrange) {
+			font-size: $size-copy-sm;
+			bottom: 3.5%;
+		}
+	}
+}
+
+/* -- type covers -- */
+
+/*
 .hcover {
 	position: relative;
 	height: 100%;
@@ -214,6 +287,7 @@ body, html {
 		}
 	}
 }
+*/
 
 .hide-narrow {
 	@include media-query($bp-narrow) {
@@ -237,3 +311,4 @@ body, html {
 		display: block;	
 	}
 }
+
