@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<header class="header">
+	<div class="header__hgroup">
+		<h1 class="header__title"><a href="{{ site.url }}">{{ site.title }}</a></h1>
+		<h2 class="header__sub">{{ page.title }}</h2>
+	</div>
+</header>
+
+{% if page.include %}
+{% include {{ page.include }}.html %}
+{% endif %}
+
+<section class="content">
+	<div class="content__main">
+
+		{{ content }}
+
+	</div>
+
+	<nav class="nav nav--secondary nav--secondary-shell">
+		<ul class="nav__list">
+			<li class="nav__list-item nav__list-item"><a href="{{ site.url }}"><span class="text">Home</span></a></li>
+		</ul>
+	</nav>
+</section>

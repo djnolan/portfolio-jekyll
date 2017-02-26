@@ -11,26 +11,19 @@
 
 .header {
 	@include max-width;
-	padding-top: $gutter;
+	padding-top: $gutter/2;
 	padding-bottom: $gutter;
 	position: relative;
+	@include media-query($bp-narrow) {
+		padding-top: $gutter;
+	}
 	@include media-query($bp-wide) {
 		padding-top: $gutter;
 		padding-bottom: $gutter;
 	}
 	&__hgroup {
 		position: relative;
-		@include media-query($bp-wide) {
-			//float: left;
-		}
 	}
-	/*
-	&__hgroup:after {
-		@include hr-asterisk;
-		position: absolute;
-		bottom: -2.5em;
-	}
-	*/
 	&__title {
 		font-size: $size-h5;
 		@include copy-caps;
@@ -41,13 +34,15 @@
 	}
 	&__sub {
 		@include copy;
-		font-family: $tiempos-italic;
-		line-height: 1.25em; 
-		font-size: $size-h4;
+		font-family: $tiempos-italic; 
+		line-height: 1.35em;
+		font-size: $size-h5;
 		margin-bottom: 0;
 		position: relative;
-		//margin-left: 1em;
-		@include media-query(340px) {
+		@include media-query($bp-narrow) {
+			font-size: $size-h4;
+		}
+		@include media-query($bp-midrange) {
 			font-size: $size-h3;
 		}
 	}
@@ -187,6 +182,14 @@
 		padding-top: 10px;
 		@include media-query(340px) {
 			padding-left: 7px;
+		}
+	}
+}
+
+.nav--secondary.nav--secondary-shell {
+	.nav__list-item:first-child:after  {
+		@include media-query(340px) {
+			display: none;
 		}
 	}
 }
@@ -578,6 +581,10 @@
 	@include max-width;
 	&__inner {
 		border-top: 1px solid $exex-light-gray;
+		padding-bottom: $gutter*2;
+		@include media-query($bp-wide) {
+			padding-bottom: $gutter*2;
+		}
 	}
 	&__inner:before {
 		//@include hr-asterisk;
@@ -588,11 +595,6 @@
 		padding: 0;
 		font-family: $decima;
 		font-size: $size-copy-exsm;
-		padding-bottom: $gutter*2;
-		@include media-query($bp-wide) {
-			padding: 0;
-			padding-bottom: $gutter*2;
-		}
 	}
 	&__nav-item {
 		display: inline-block;
@@ -601,7 +603,33 @@
 			@include link-border;
 		}
 	}
+	&__description {
+		@include copy-small;
+		font-size: $size-copy-exsm;
+		max-width: 690px;
+		@include media-query($bp-narrow) {
+			font-size: $size-copy-exsm;
+		}
+	}
 }
 
+/* -- type play -- */
+
+.content__main {
+	.type-list {
+		@include stock-column;
+		&__hed {
+			font-size: $size-copy-exsm;
+			color: $mid-gray;
+			margin-top: 3em;
+			margin-bottom: 2em;
+		}
+		&__hed:before {
+			border-bottom: 1px solid $ex-light-gray;
+			width: 100%;
+			margin-bottom: 1em;
+		}
+	}
+}
 
 
