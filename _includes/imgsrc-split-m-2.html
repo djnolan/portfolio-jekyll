@@ -1,0 +1,20 @@
+{% if include.inline_img2 contains '.jpg' %}
+<img class="main__img{% if include.class1 %} {{ include.class2 }}{% endif %}" src="../img/{{ include.inline_img2 | replace: '.jpg', '-320.jpg' }}"
+	alt="{{ include.alt2 }}"
+	sizes="(min-width:890px) 262px, 320px" 
+	srcset="../img/{{ include.inline_img2 | replace: '.jpg', '-262.jpg' }} 262w,
+		    ../img/{{ include.inline_img2 | replace: '.jpg', '-320.jpg' }} 320w,
+		    ../img/{{ include.inline_img2 | replace: '.jpg', '-524.jpg' }} 524w,
+		    ../img/{{ include.inline_img2 | replace: '.jpg', '-640.jpg' }} 640w"
+/>
+{% endif %}
+{% if include.inline_img2 contains '.png' %}
+<img class="main__img{% if include.class1 %} {{ include.class2 }}{% endif %}" src="../img/{{ include.inline_img2 | replace: '.png', '-320.png' }}"
+	alt="{{ include.alt2 }}"
+	sizes="(min-width:890px) 262px, 320px" 
+	srcset="../img/{{ include.inline_img2 | replace: '.png', '-262.png' }} 262w,
+		    ../img/{{ include.inline_img2 | replace: '.png', '-320.png' }} 320w,
+		    ../img/{{ include.inline_img2 | replace: '.png', '-524.png' }} 524w,
+		    ../img/{{ include.inline_img2 | replace: '.png', '-640.png' }} 640w"
+/>
+{% endif %}

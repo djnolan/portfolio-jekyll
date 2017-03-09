@@ -1,4 +1,22 @@
 <div class="inline inline--wide">
+	<div class="inline__fill-inner{% if include.width %} {{ include.width }}{% endif %}">
+		<div class="split{% if include.class == 'mobile' %} mobile{% endif %}">
+			{% include imgsrc-split-1.html %}
+		</div>
+		{% if include.class == 'mobile' %}
+		<div class="split mobile m">
+			{% include imgsrc-split-m-2.html %}
+		</div>
+		{% else %}
+		<div class="split">
+			{% include imgsrc-split-2.html %}
+		</div>
+		{% endif %}
+	</div>
+</div>
+
+{% comment %}
+<div class="inline inline--wide">
 	<div class="inline__fill-inner">
 		<div class="split">
 			{% include imgsrc-split-1.html %}
@@ -8,3 +26,4 @@
 		</div>
 	</div>
 </div>
+{% endcomment %}
