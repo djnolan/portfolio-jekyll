@@ -1,0 +1,13 @@
+<div class="cover-outer cover-outer--fill">
+	<div class="cover{% if include.width %} {{ include.width }}{% endif %}">
+	{% if include.width == 'thinner' %}
+		{% include imgsrc-inline-wide-thinner.html %}
+	{% else %}
+		{% include imgsrc-inline-wide.html %}
+	{% endif %}
+	</div>
+</div>
+
+
+
+

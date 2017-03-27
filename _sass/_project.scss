@@ -208,6 +208,11 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+.thinner {
+	@include max-width-8;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .cover:after {
 	@include clearfix;
@@ -376,16 +381,16 @@
 				display: block;
 			}
 		}
+		.date-text:after {
+			content: ", ";
+			@include media-query($bp-narrow) {
+				display: none;
+			}
+		}
 		.date-year {
 			@include media-query($bp-narrow) {
 				display: block;
 				font-size: $size-h5;
-			}
-		}
-		.date-year:before {
-			content: ", ";
-			@include media-query($bp-narrow) {
-				display: none;
 			}
 		}
 	}
@@ -507,6 +512,9 @@
 
 .inline--column {
 	@include stock-column;
+}
+.inline--column-8 {
+	@include inline-column-8;
 }
 .inline-borders:before {
 	border-top: $hr-gray;

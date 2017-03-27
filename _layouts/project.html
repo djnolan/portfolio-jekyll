@@ -61,7 +61,7 @@ layout: default
 
 
 <aside class="info">
-	<div class="info__date"><span class="date-text">{{ page.date_text }}</span><span class="date-year">{{ page.date_year }}</div>
+	<div class="info__date">{% if page.date_text %}<span class="date-text">{{ page.date_text }}{% endif %}</span><span class="date-year">{{ page.date_year }}</div>
 	<div class="info__container">
 		{% if page.view_site %}
 		<a class="info__view-button" href="{{ page.view_site }}"><span class="pre">View</span> <span class="text"><span class="text__first">live</span> <span class="text__last">site</span></span></a>

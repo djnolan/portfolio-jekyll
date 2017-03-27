@@ -1,3 +1,7 @@
 <div class="inline inline--column{% if include.class == 'topbtm-border' %} inline-borders{% endif %}">
+	{% if include.res == 'gif-low' %}
+	{% include imgsrc-inline-col-gif-low.html %}
+	{% else %}
 	{% include imgsrc-inline-col-border.html %}
+	{% endif %}
 </div>
