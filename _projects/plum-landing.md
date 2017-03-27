@@ -3,7 +3,7 @@ layout: project
 title: Plum Landing
 date: 2014-04-17
 date_year: 2013–2014
-thumbnail: police_th.jpg
+thumbnail: plum_th.png
 thumb_alt: 
 include: plum
 view_site: http://pbskids.org/plumlanding/index.html
