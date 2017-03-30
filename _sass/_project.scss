@@ -201,6 +201,11 @@
 		display: block;
 		margin: 0 auto;
 	}
+	video {
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
 }
 
 .thin {
@@ -487,6 +492,9 @@
 .inline {
 	margin: 2.5em 0;
 	img {
+		max-width: 100%;
+	}
+	video {
 		max-width: 100%;
 	}
 }
