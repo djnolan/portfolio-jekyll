@@ -55,7 +55,7 @@ One morning, when Gregor Samsa woke from troubled dreams, he found himself trans
 
 One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
 
-{% include inline-col.html res='gif-low' class='border' inline_img='plum_eat.gif' alt="" %}
-{% include inline-col.html res='gif-low' class='border' inline_img='plum_fly.gif' alt="" %}
+{% include inline-col.html res='low' class='border' inline_img='plum_eat.gif' alt="" %}
+{% include inline-col.html res='low' class='border' inline_img='plum_fly.gif' alt="" %}
 
 
