@@ -1,0 +1,6 @@
+<img class="main__img{% if include.class == 'border' %} border{% endif %}" src="../img/{{ include.inline_img | replace: '.gif', '-660.gif' }}"
+	alt="{{ include.alt }}"
+	sizes="(min-width:890px) 660px, (min-width:542px) 860px, 512px"
+	srcset="../img/{{ include.inline_img | replace: '.gif', '-512.gif' }} 512w,
+			../img/{{ include.inline_img | replace: '.gif', '-660.gif' }} 660w"
+/>

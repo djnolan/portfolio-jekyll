@@ -1,0 +1,22 @@
+{% if include.inline_img contains '.jpg' %}
+<img class="main__img{% if include.class == 'border' %} border{% endif %}" src="../img/{{ include.inline_img | replace: '.jpg', '-1340.jpg' }}"
+	alt="{{ include.alt }}"
+	sizes="(min-width:933px) 873px, 94.1176470588235vw"
+	srcset="../img/{{ include.inline_img | replace: '.jpg', '-512.jpg' }} 512w,
+			../img/{{ include.inline_img | replace: '.jpg', '-860.jpg' }} 860w,
+			../img/{{ include.inline_img | replace: '.jpg', '-1024.jpg' }} 1024w,			
+			../img/{{ include.inline_img | replace: '.jpg', '-1340.jpg' }} 1340w,
+			../img/{{ include.inline_img | replace: '.jpg', '-1720.jpg' }} 1720w"
+/>
+{% endif %}
+{% if include.inline_img contains '.png' %}
+<img class="main__img{% if include.class == 'border' %} border{% endif %}" src="../img/{{ include.inline_img | replace: '.png', '-1340.png' }}"
+	alt="{{ include.alt }}"
+	sizes="(min-width:933px) 873px, 94.1176470588235vw"
+	srcset="../img/{{ include.inline_img | replace: '.png', '-512.png' }} 512w,
+			../img/{{ include.inline_img | replace: '.png', '-860.png' }} 860w,
+			../img/{{ include.inline_img | replace: '.png', '-1024.png' }} 1024w,			
+			../img/{{ include.inline_img | replace: '.png', '-1340.png' }} 1340w,
+			../img/{{ include.inline_img | replace: '.png', '-1720.png' }} 1720w"
+/>
+{% endif %}
