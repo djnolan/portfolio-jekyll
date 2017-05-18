@@ -2,33 +2,41 @@
 layout: project
 title: FRONTLINE Branding
 date: 2016-04-01
-date_text: Spring
-date_year: 2016
+date_year: 2015–2016
 thumbnail: fl_branding_th.png
 thumb_alt: 
 include: fl-branding
+view_site: http://www.pbs.org/wgbh/frontline/
 roles: 
- - branding
+ - visual design/branding
  - animation
 ---
 
-One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.
+I started at FRONTLINE redesigning the website. One of our goals was to take a decades old brand and refresh it in the digital space while still holding on to the DNA of the brand. After the site redesign I joined the FRONTLINE team full time and began to extend the branding system developed for the website further to other areas of FRONTLINE.
 
-## Logo Animations
+## Site Redesign
+
+{% include inline-wide-split.html class1='border' class2='border' inline_img1='site_investigation.jpg' inline_img2='styleguide_type.jpg' alt1='' alt2='' %}
+
+Big images and bold typography dominate the new FRONTLINE website. I chose [Cooper Hewitt](https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/) as our display typeface. It has the right balance of personality and versatility—we can mold into the right fit for FRONTLINE's voice and tone. 
+
+FRONTLINE of course makes films, but much of the reporting on the website is delivered through text articles. The choice of a text typeface was very important, it needed to be neutral and readable especially throughout a long article, it had to carry the weight of the most serious of FRONTLINE's content, but we also wanted it to feel fresh and modern to go along with our elegant new site. [JAF Bernino Sans](http://justanotherfoundry.com/bernini-sans) hit the mark. It has slightly condensed letterforms yet is very open and balanced overall. It delivers over a long read providing that neutral reading experience, but it also has a subtle personality that fits with FRONTLINE and brands the experience throughout.  
+
+I'll cover the ins and outs of the entire FRONTLINE site redesign in another post.
+
+## Motion Design
 
 {% include inline-col-vid.html video='share_final' %}
 
-One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.
+I created an animated logo bumper along with some other motion design elements for our digital video packaging. The choreography in our motion design is an extension of the visual brand. The same qualities that inspired our visual system also dictated the details of the animation language. It needed to feel bold and impactful but also elegant and sophisticated.
 
-## Brand Graphics and Templates
+## Graphics and Templates
 
 {% include inline-col-8.html inline_img='dvd.jpg' alt="" %}
 
-One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
+I've continued to develop the FRONTLINE brand system and apply it across different elements like DVD packaging, audience infographics and social media graphic templates. 
 
 {% include inline-col.html class='border' inline_img='onesheet.png' alt="" %}
-
-He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.
 
 {% include inline-col.html res='low' inline_img='social.jpg' alt="" %}
 
@@ -36,7 +44,9 @@ He lay on his armour-like back, and if he lifted his head a little he could see 
 
 {% include inline-col.html class='border' inline_img='logo_guide.png' alt="" %}
 
-One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.
+When I joined FRONTLINE there was some confusion around the details of the logo. There was no logo styleguide and the logo was being applied inconsistently. The rectangle, the spacing, the PBS logo integration and even the red color was all inconsistent, unclear and undocumented. Based on my research, discussions and preferences I created the definitive FRONTLINE logo in all its variations, with a style guide to explain its usage.
 
 {% include inline-wide-split.html inline_img1='video_guide1.jpg' inline_img2='video_guide2.jpg' class1='border' class2='border' alt1="" alt2="" %}
+
+I also created a design system and styleguide for our digital video packaging. This covered things like lower thirds typography, captions, opening title screens and end credits.
 
