@@ -4,6 +4,14 @@
 		<div class="split mobile">
 			{% include imgsrc-split-shadow-1.html %}
 		</div>
+		{% elsif include.shadow1 == 'none' %}
+		<div class="split">
+			{% include imgsrc-split-1.html %}
+		</div>
+		{% elsif include.res1 == 'low' %}
+		<div class="split">
+			{% include imgsrc-split-1-low.html %}
+		</div>
 		{% else %}
 		<div class="split">
 			{% include imgsrc-split-shadow-1.html %}
@@ -13,6 +21,14 @@
 		{% if include.class == 'mobile' %}
 		<div class="split mobile m">
 			{% include imgsrc-split-m-shadow-2.html %}
+		</div>
+		{% elsif include.shadow2 == 'none' %}
+		<div class="split">
+			{% include imgsrc-split-2.html %}
+		</div>
+		{% elsif include.res2 == 'low' %}
+		<div class="split">
+			{% include imgsrc-split-2-low.html %}
 		</div>
 		{% else %}
 		<div class="split">
