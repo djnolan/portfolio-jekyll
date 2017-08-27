@@ -1,8 +1,16 @@
-<div class="inline inline--column{% if include.class == 'topbtm-border' %} inline-borders{% endif %}">
+<div class="inline inline--column{% if include.class == 'topbtm-border' %} inline-borders{% endif %}{% if include.middle == 'border' %} middle-border{% endif %}">
 	<div class="stack">
+		{% if include.res == 'low' %}
+		{% include imgsrc-inline-col-stack-1-low.html %}
+		{% else %}
 		{% include imgsrc-inline-col-stack-1.html %}
+		{% endif %}
 	</div>
 	<div class="stack">
+		{% if include.res == 'low' %}
+		{% include imgsrc-inline-col-stack-2-low.html %}
+		{% else %}
 		{% include imgsrc-inline-col-stack-2.html %}
+		{% endif %}
 	</div>
 </div>
