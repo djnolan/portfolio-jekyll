@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Next Generation Preshool Science
-date: 2014-02-01
+date: 2014-05-01
 date_year: 2014–2015
 thumbnail: ngps_th.jpg
 thumb_alt: 

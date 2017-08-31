@@ -1,7 +1,9 @@
-<div class="cover-outer cover-outer--fill">
-	<div class="cover{% if include.width %} {{ include.width }}{% endif %}">
+<div class="cover-outer{% if include.fill == 'no-fill' %} cover-outer--nofill{% else %} cover-outer--fill{% endif %}">
+	<div class="cover{% if include.width %} {{ include.width }}{% endif %}{% if include.class == 'topbtm-border' %} inline-borders{% endif %}">
 	{% if include.width == 'thinner' %}
 		{% include imgsrc-inline-wide-thinner.html %}
+	{% elsif include.width == 'column' %}
+		{% include imgsrc-inline-col-border.html %}
 	{% else %}
 		{% include imgsrc-inline-wide.html %}
 	{% endif %}

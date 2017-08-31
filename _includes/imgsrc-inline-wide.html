@@ -13,7 +13,7 @@
 {% if include.inline_img contains '.png' %}
 <img class="main__img{% if include.class == 'border' %} border{% endif %}" src="../img/{{ include.inline_img | replace: '.png', '-1340.png' }}"
 	alt="{{ include.alt }}"
-	sizes="(min-width:890px) 660px, (min-width:542px) 860px, 512px"
+	sizes="(min-width:890px) 1340px, (min-width:542px) 860px, 512px"
 	srcset="../img/{{ include.inline_img | replace: '.png', '-512.png' }} 512w,
 			../img/{{ include.inline_img | replace: '.png', '-860.png' }} 860w,
 			../img/{{ include.inline_img | replace: '.png', '-1024.png' }} 1024w,			
