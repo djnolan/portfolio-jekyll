@@ -1,7 +1,7 @@
 ---
 layout: project
 title: FRONTLINE Editorial Design 2
-date: 2017-05-17
+date: 2017-02-21
 date_year: 2016–2017
 thumbnail: fl_editorial_2.jpg
 thumb_alt: Cover design of Where the Black Flag of ISIS Flies.
