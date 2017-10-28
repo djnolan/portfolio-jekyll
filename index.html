@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 <header class="header hcover">
@@ -7,22 +7,14 @@ layout: default
 		<h1 class="header__title"><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
 		<h2 class="header__sub">Designing graphics <br>and crafting experiences <br>since 2006</h2>
 	</div>
-	<div class="big-arrow">
-		<div class="big-arrow__instruct">Scroll</div>
-	</div>
-	{% comment %}
-	//type covers
-	{% for cover in site.data.covers %}
-		{% if cover.active == 'yes' %}
-		<div class="hcover__image {{ cover.slug }}">
-			{% include covers/{{ cover.slug }}.html %}
-		</div>
-		{% endif %}
-	{% endfor %}
-	<a class="hcover__link" href="/experiments/type-play.html"><sup>*</sup>type play</a>
-	{% endcomment %}
+	<div class="monogram-bg"></div>
+	<div class="monogram-cover"></div>
+	<div class="monogram"></div>
+
 
 </header>
+
+<div class="front">
 
 <section class="section projects">
 	<h2 class="section__title">Projects</h2> 
@@ -59,4 +51,6 @@ layout: default
 
 
 </section>
+
+</div>
 
