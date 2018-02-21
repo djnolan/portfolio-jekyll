@@ -4,4 +4,8 @@
 	{% else %}
 	{% include imgsrc-inline-col-border.html %}
 	{% endif %}
+
+	{% if include.caption %}
+	<p class="caption">{{ include.caption }}</p>
+	{% endif %}
 </div>

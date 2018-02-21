@@ -21,6 +21,10 @@
 		</div>
 		{% endif %}
 	</div>
+
+	{% if include.caption %}
+	<p class="caption">{{ include.caption }}</p>
+	{% endif %}
 </div>
 
 {% comment %}

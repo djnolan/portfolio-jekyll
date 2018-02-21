@@ -27,6 +27,16 @@
 	}
 }
 
+@mixin copy-caption {
+	@include copy;
+	font-size: $size-copy-super-sm;
+	color: $mid-gray;
+	font-family: $decima;
+	@include media-query($bp-narrow) {
+		font-size: $size-copy-super-sm;
+	}
+}
+
 @mixin grid {
 	padding: 0 $gutter/2;
 	float: left;

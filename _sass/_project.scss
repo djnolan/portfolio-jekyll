@@ -496,6 +496,13 @@
 			line-height: $line-height;
 			display: block;
 		}
+		.caption {
+			@include copy-caption;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			margin-top: .25em;
+		}
 	}
 }
 
