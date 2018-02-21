@@ -15,8 +15,6 @@ roles:
  - branding
 ---
 
-(CAPTIONS FOR MEREDITH, ADDITIONAL ART CREDIT CAPTIONS, ALT TAGS)
-
 I spent three years figuring out how to teach math to preschoolers using iPads in the classroom. Our team's goal was to design a piece of a preschool curriculum featuring eight iPad games, a teacher's guide and hands-on activities. In order to reach that goal our team would have to rethink the way we approached making educational games.
 
 {% include inline-col.html res='low' inline_img='ngpm_intro.jpg' alt="Two preschoolers' hands touching an iPad screen, playing the Treasure Bubbles game." %}
