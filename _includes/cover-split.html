@@ -13,7 +13,7 @@
 			{% include imgsrc-split-1-low.html %}
 		</div>
 		{% else %}
-		<div class="split">
+		<div class="split{% if include.class == 'split-7-5' %} split-7{% endif %}">
 			{% include imgsrc-split-shadow-1.html %}
 		</div>
 		{% endif %}
@@ -31,7 +31,7 @@
 			{% include imgsrc-split-2-low.html %}
 		</div>
 		{% else %}
-		<div class="split">
+		<div class="split {% if include.class == 'split-7-5' %} split-5{% endif %}">
 			{% include imgsrc-split-shadow-2.html %}
 		</div>
 		{% endif %}
