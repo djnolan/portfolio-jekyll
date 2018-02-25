@@ -32,6 +32,7 @@
 	font-size: $size-copy-super-sm;
 	color: $mid-gray;
 	font-family: $decima;
+	line-height: 1.4em;
 	@include media-query($bp-narrow) {
 		font-size: $size-copy-super-sm;
 	}
