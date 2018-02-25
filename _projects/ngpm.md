@@ -4,7 +4,7 @@ title: Next Generation Preshool Math
 date: 2014-01-01
 date_year: 2011–2014
 thumbnail: ngpm_th.jpg
-thumb_alt: 
+thumb_alt: A screen from the the iPad game Lemonade Stand.
 include: ngpm
 roles:
  - design lead
@@ -17,7 +17,7 @@ roles:
 
 I spent three years figuring out how to teach math to preschoolers using iPads in the classroom. Our team's goal was to design a piece of a preschool curriculum featuring eight iPad games, a teacher's guide and hands-on activities. In order to reach that goal our team would have to rethink the way we approached making educational games.
 
-{% include inline-col.html res='low' inline_img='ngpm_intro.jpg' alt="Two preschoolers' hands touching an iPad screen, playing the Treasure Bubbles game." caption="Photo by Meredith Nierman" %}
+{% include inline-col.html res='low' inline_img='ngpm_intro.jpg' alt="Two preschoolers' hands touching an iPad screen, playing the Treasure Bubbles game." caption="Photo by Meredith Nierman." %}
 
 WGBH, partnering with two other companies, was awarded a grant from the National Science Foundation to research and design a curriculum exploring tablet devices in preschool classrooms. I was part of the team at WGBH Digital making websites and games for kids.
 
@@ -41,11 +41,11 @@ Sketching out game mechanics was the first step in answering these questions. We
 
 This project was long term and had an emphasis on research. Our team had the time and flexibility in our schedule to figure out what really worked with young kids and technology in the classroom. We were able to develop dozens of unique prototypes that would eventually inform the final eight games. Some prototype mechanics were iterated on multiple times and evolved into a finished game, others were thrown out entirely. Testing multiple solutions allowed us not to be tied to any one idea. We could let things fail until we had something that was really fun and was on its way to helping kids learn the math.
 
-{% include inline-wide-split.html inline_img1='ngpm_collab1.jpg' inline_img2='ngpm_cookie.jpg' res='low' alt1="Two preschoolers playing a game on the same ipad. They're connecting two cards together." alt2="An iPad prototype game screen showing a stretched out rope that catches cookies." caption="Prototype art by Chi-Yun Lau and Frank LeClair" %}
+{% include inline-wide-split.html inline_img1='ngpm_collab1.jpg' inline_img2='ngpm_cookie.jpg' res='low' alt1="Two preschoolers playing a game on the same ipad. They're connecting two cards together." alt2="An iPad prototype game screen showing a stretched out rope that catches cookies." caption="Prototype art by Chi-Yun Lau and Frank LeClair." %}
 
 Above are two examples of a collaborative rope stretching mechanic: matching two cards together that attach in the middle and pulling two ends of a rope to collect groups of food. These are both dependent interactions because they require both kids to work together and touch the screen to complete a single task. The cookie catcher prototype turned into a [finished app](https://itunes.apple.com/us/app/gracie-friends-treasure-bubbles/id922540241?mt=8) after much iteration, development and testing.
 
-{% include inline-wide-split.html inline_img1='ngpm_collab2.jpg' inline_img2='ngpm_pinata.jpg' res='low' alt1='Two preschoolers playing on the same iPad.' alt2='An iPad game screen showing two characters catching candy in baskets with numbers.' caption="Prototype art by Frank LeClair, character design by DHX Media" %}
+{% include inline-wide-split.html inline_img1='ngpm_collab2.jpg' inline_img2='ngpm_pinata.jpg' res='low' alt1='Two preschoolers playing on the same iPad.' alt2='An iPad game screen showing two characters catching candy in baskets with numbers.' caption="Prototype art by Frank LeClair, character design by DHX Media." %}
 
 Young kids don't respond well to designs that are incomplete or to games that aren't functioning well. They don't understand the difference between a prototype and a finished game. For them, it just needs to be a fun experience or they won't give it a chance. We needed to fully consider the testing experience and design the prototype around that experience so we could get good results. In order to keep kids engaged, the prototypes needed to have full-color visuals with characters and game mechanics that could pass as fully functional.
 
