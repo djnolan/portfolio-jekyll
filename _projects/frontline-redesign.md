@@ -4,7 +4,8 @@ title: FRONTLINE Redesign
 date: 2015-11-30
 date_text: November 30
 date_year: 2015
-thumbnail: fl_editorial_2.jpg
+thumbnail: fl_redesign_th.jpg
+thumb_class: border
 thumb_alt: 
 include: frontline-redesign
 view_site: https://www.pbs.org/wgbh/frontline/
@@ -35,7 +36,7 @@ Alongside this work our team also began a phase of content strategy that started
 
 ## Wireframes and Prototypes
 
-The success of the paper components lead me to propose a similarly flexible and collaborative method for wireframing. I created rough, responsive html wireframes of individual components. I then could easily assemble the components together in different ways to come up with template variations. All of these initial components and templates were immediately viewable on the devices of team members. We were judging these early design decisions in the right context, the same context where the final website would be seen.
+The success of the paper components led me to propose a similarly flexible and collaborative method for wireframing. I created rough, responsive html wireframes of individual components. I then could easily assemble the components together in different ways to come up with template variations. All of these initial components and templates were immediately viewable on the devices of team members. We were judging these early design decisions in the right context, the same context where the final website would be seen.
 
 {% include inline-wide-fourths.html inline_img1='component_wires_1.jpg' class1='border' inline_img2='component_wires_2.jpg' class2='border' inline_img3='component_wires_3.jpg' class3='border' inline_img4='component_wires_4.jpg' class4='border' alt1='' alt2='' alt3='' alt4='' %}
 
@@ -77,20 +78,23 @@ For typefaces: [Cooper Hewitt](https://www.cooperhewitt.org/open-source-at-coope
 
 {% include inline-col-8.html class='border' inline_img='redesign_article.jpg' alt='' %}
 
-[designing components, then checking them in comps]
-[global nav and footer, thumbnail and slider component example from comps]
+I iterated on the design of individual components based on the style directions and typography decisions. I continued to design in HTML and CSS. This allowed me to easily assemble components into rough HTML page comps to test out the hierarchy of the elements together and to show other team members. 
 
-[components formed into final styleguide, made final development much easier]
+The components eventually formed the final styleguide.
 
 {% include inline-wide.html inline_img='redesign_styleguide.jpg' alt='' %}
 
-[film page with mobile example]
+[Something like] This component based design process formed the basis of the site as final development happened on the site templates. Here are some of the key pages:
+
+[The film page](https://www.pbs.org/wgbh/frontline/film/war-on-the-epa/): where you can watch a documentary and explore related content. 
 
 {% include inline-wide-split.html inline_img1='redesign_film.jpg' inline_img2='redesign_film_m.jpg' width='thin' class='mobile' class1='border' class2='border' alt1='' alt2='' %}
 
-[investigation with mobile example]
+[An investigation](https://www.pbs.org/wgbh/frontline/investigation/locked-up-in-america/): a collection of curated content around a topic that FRONTLINE is pursuing.
 
 {% include inline-wide-split.html inline_img1='redesign_investigation.jpg' inline_img2='redesign_investigation_m.jpg' width='thin' class='mobile' class1='border' class2='border' alt1='' alt2='' %}
+
+After we launched this redesign at the end of 2015, I ended up switching jobs and joining the FRONTLINE team full time. I've been working with the design system I created for the last two years. I've been able to test it's flexibility on new site features (Putin Files) and expand expand the brand and system into new editorial experiences. 
 
 
 
