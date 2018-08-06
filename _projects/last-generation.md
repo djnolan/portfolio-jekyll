@@ -83,8 +83,65 @@ Final two visual design directions. Sed ut perspiciatis unde omnis iste natus er
 
 Typography. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
 
-{% include inline-col.html inline_img='lastgen_type.png' alt='' caption='1. Naive Line Sans, 2. Karma, 3. Barlow' %}
+{% include inline-col.html inline_img='lastgen_naive.png' alt='' caption='Naive Line Sans' %}
 
+{% include inline-col.html inline_img='lastgen_karma.png' alt='' caption='Karma' %}
 
+{% include inline-col.html inline_img='lastgen_barlow.png' alt='' caption='Barlow' %}
 
+Bit about palette and textures used. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+
+{% include inline-col-8.html inline_img='lastgen_texture.jpg' alt='' %}
+
+## The Graphics
+
+Graphics intro and a bit about how they're set in the scene. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+
+{% include inline-col.html inline_img='lastgen_slr_draw.jpg' alt='' %}
+
+Explain process of starting with a more accurate SLR concept and then going with something more abstracted that got the point across better.
+
+{% include inline-wide.html inline_img='slr_wide.jpg' alt='' %}
+
+A bit about the background animation.
+
+{% include inline-col-vid.html video='lastgen_slr_trees' poster='lastgen_slr_trees.jpg' %}
+
+A bit about the waves layered on top using CSS.
+
+{% include inline-col.html inline_img='lastgen_slr_waves.jpg' alt='' %}
+
+Intro to nuclear testing and what we were trying to communicate with this graphic. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+
+{% include inline-col.html inline_img='lastgen_bombs_circles1.png' alt='' %}
+
+A sentence that leads into this one.
+
+{% include inline-col.html inline_img='lastgen_bombs_circles2.png' alt='' %}
+
+A sentence that leads into this one.
+
+{% include inline-col.html inline_img='lastgen_bombs_circles3.png' alt='' %}
+
+Set up the final treatment by walking through how the bombs are revealed with the island highlights and the hiroshima key.
+
+{% include inline-col-8.html inline_img='lastgen_bombs.jpg' alt='' %}
+
+CO2 graphic intro. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+
+{% include inline-col-vid.html video='lastgen_co2_intro' poster='lastgen_co2_intro.jpg' %}
+
+Lead into the graph by explaining the CO2 and sea level correlation.
+
+{% include inline-col-8.html inline_img='lastgen_co2.jpg' alt='' %}
+
+Projections graphic intro. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+
+{% include inline-col.html inline_img='lastgen_projections_charts.png' class="topbtm-border" alt='' %}
+
+Setup final visual approach.
+
+{% include inline-col-8.html inline_img='lastgen_projections.jpg' alt='' %}
+
+Wrap up text. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 
