@@ -431,6 +431,9 @@
 	&__role-list-item {
 		margin-bottom: .35em;
 	}
+	&__role-list-item:last-child {
+		margin-bottom: 0;
+	}
 	&__role-list-item:before {
 		content: "-";
 		margin-right: .2em;
@@ -475,7 +478,7 @@
 			@include stock-column;
 			margin-top: 1em;
 			margin-bottom: 1em;
-			> a {
+			a {
 				@include link-border;
 			}
 			> img {
@@ -513,6 +516,38 @@
 			width: 100%;
 			margin-top: .35em;
 		}
+		hr {
+			border: none;
+			margin-top: 1em;
+			margin-bottom: 1em;
+			width: $gutter;
+			border-bottom: 2px solid $light-gray;
+			margin-left: $gutter/2;
+			@include media-query($bp-wide) {
+				margin-left: auto;
+				position: relative;
+				left: -315px;
+			}
+		}
+	}
+	&__update {
+		font-size: $size-copy-sm;
+		font-family: $tiempos-italic;
+		line-height: $line-height-sm;
+		&-hed {
+			font-family: $tiempos;
+			@include copy-caps;
+		}
+		&-inner {
+			background-color: $exex-light-gray;
+			padding: 10px;
+			padding-bottom: 12px;
+			display: inline-block;
+			position: relative;
+		}
+	}
+	.content__update {
+		margin-bottom: 1.5em;
 	}
 }
 
