@@ -8,6 +8,8 @@ thumbnail: last_generation_th.jpg
 thumb_alt: 
 include: last-generation
 view_site: http://apps.frontline.org/the-last-generation/
+og_image: lastgen_og.jpg
+excerpt: Inside the design process of an interactive documentary. The Last Generation is about climate change on the Marshall Islands and three kids that live there.
 roles: 
  - user experience
  - visual design
