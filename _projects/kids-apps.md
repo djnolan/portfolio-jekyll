@@ -61,3 +61,15 @@ FPO text I spent three years figuring out how to teach math to preschoolers usin
 {% include inline-wide-split.html inline_img1='martha_pieces.jpg' inline_img2='martha_board.jpg' alt1="" alt2="" class1='border' class2='border' %}
 
 FPO text I spent three years figuring out how to teach math to preschoolers using iPads in the classroom.
+
+{% include inline-col.html inline_img='martha_sounds.jpg' class='border' alt="" %}
+
+FPO text I spent three years figuring out how to teach math to preschoolers using iPads in the classroom.
+
+{% include inline-wide-split.html inline_img1='martha_balltoss.jpg' inline_img2='martha_cards.jpg' alt1="" alt2="" class1='border' class2='border' %}
+
+## First 8 Studios
+
+Intro text I spent three years figuring out how to teach math to preschoolers using iPads in the classroom. Our team's goal was to design a piece of a preschool curriculum featuring eight iPad games, a teacher's guide and hands-on activities. In order to reach that goal our team would have to rethink the way we approached making educational games.
+
+
